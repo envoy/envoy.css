@@ -1,8 +1,7 @@
-/* Basscss Colors */
-
-@import '../_variables.css';
+/* Envoy.css Colors */
 
 .black  { color: var(--black) }
+.slate  { color: var(--slate) }
 .gray   { color: var(--gray) }
 .silver { color: var(--silver) }
 .white  { color: var(--white) }
@@ -25,3 +24,25 @@
 .color-inherit { color: inherit }
 .muted { opacity: .5 }
 
+:root {
+  --aqua:  #7FDBFF;
+  --blue:  #0074D9;
+  --navy:  #001F3F;
+  --teal:  #39CCCC;
+  --green: #2ECC40;
+  --olive: #3D9970;
+  --lime:  #01FF70;
+
+  --yellow:  #FFDC00;
+  --orange:  #FF851B;
+  --red:     #EF3934;
+  --fuchsia: #F012BE;
+  --purple:  #B10DC9;
+  --maroon:  #85144B;
+
+  --white:  #FFFFFF;
+  --silver: #DDDDDD;
+  --gray:   #F6F6F7;
+  --slate:  #282C36;
+  --black:  #111111;
+}
