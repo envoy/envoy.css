@@ -1,4 +1,4 @@
-/* Envoy Typography */
+/* Envoy.css Typography */
 
 @import url("https://hello.myfonts.net/count/316471");
 
@@ -45,12 +45,12 @@ h1, h2, h3, h4, h5, h6, .bold {
   -webkit-font-smoothing: antialiased;
 }
 
-
 .font-family-inherit { font-family: inherit }
 .font-size-inherit { font-size: inherit }
 .text-decoration-none { text-decoration: none }
 
 .bold    { font-weight: var(--bold-font-weight, bold) }
+.medium  { font-weight: var(--medium-font-weight, normal) }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
@@ -85,10 +85,11 @@ h1, h2, h3, h4, h5, h6, .bold {
 
 :root {
   --line-height-1: 1;
-  --line-height-2: 1.125;
-  --line-height-3: 1.25;
-  --line-height-4: 1.5;
+  --line-height-2: 1.2;
+  --line-height-3: 1.5;
+  --line-height-4: 2;
   --letter-spacing: 1;
   --caps-letter-spacing: .2em;
-  --bold-font-weight: bold;
+  --bold-font-weight: 600;
+  --medium-font-weight: bold;
 }

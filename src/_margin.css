@@ -1,4 +1,4 @@
-/* Basscss Margin */
+/* Envoy.css Margin */
 
 .m0  { margin:        0 }
 .mt0 { margin-top:    0 }
@@ -40,19 +40,39 @@
 .mx4 { margin-left:   var(--space-4); margin-right:  var(--space-4) }
 .my4 { margin-top:    var(--space-4); margin-bottom: var(--space-4) }
 
+.m5  { margin:        var(--space-5) }
+.mt5 { margin-top:    var(--space-5) }
+.mr5 { margin-right:  var(--space-5) }
+.mb5 { margin-bottom: var(--space-5) }
+.ml5 { margin-left:   var(--space-5) }
+.mx5 { margin-left:   var(--space-5); margin-right:  var(--space-5) }
+.my5 { margin-top:    var(--space-5); margin-bottom: var(--space-5) }
+
+.m6  { margin:        var(--space-6) }
+.mt6 { margin-top:    var(--space-6) }
+.mr6 { margin-right:  var(--space-6) }
+.mb6 { margin-bottom: var(--space-6) }
+.ml6 { margin-left:   var(--space-6) }
+.mx6 { margin-left:   var(--space-6); margin-right:  var(--space-6) }
+.my6 { margin-top:    var(--space-6); margin-bottom: var(--space-6) }
+
 .mxn1 { margin-left: -var(--space-1); margin-right: -var(--space-1); }
 .mxn2 { margin-left: -var(--space-2); margin-right: -var(--space-2); }
 .mxn3 { margin-left: -var(--space-3); margin-right: -var(--space-3); }
 .mxn4 { margin-left: -var(--space-4); margin-right: -var(--space-4); }
+.mxn5 { margin-left: -var(--space-5); margin-right: -var(--space-5); }
+.mxn6 { margin-left: -var(--space-6); margin-right: -var(--space-6); }
 
 .ml-auto { margin-left: auto }
 .mr-auto { margin-right: auto }
 .mx-auto { margin-left: auto; margin-right: auto; }
 
 :root {
-  --space-1: .5rem;
+  --space-1: 0.5rem;
   --space-2: 1rem;
-  --space-3: 2rem;
-  --space-4: 4rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 5rem;
 }
 
