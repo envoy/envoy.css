@@ -46,8 +46,3 @@
 @custom-media --breakpoint-md (min-width: 52em);
 @custom-media --breakpoint-lg (min-width: 64em);
 
-:root {
-  --space-1: .5rem;
-  --media-object-space: var(--space-1);
-}
-

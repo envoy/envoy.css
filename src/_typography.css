@@ -82,14 +82,3 @@ h1, h2, h3, h4, h5, h6, .bold {
   list-style: none;
   padding-left: 0;
 }
-
-:root {
-  --line-height-1: 1;
-  --line-height-2: 1.2;
-  --line-height-3: 1.5;
-  --line-height-4: 2;
-  --letter-spacing: 1;
-  --caps-letter-spacing: .2em;
-  --bold-font-weight: 600;
-  --medium-font-weight: bold;
-}

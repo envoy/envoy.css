@@ -29,10 +29,3 @@
 
 .border-box { box-sizing: border-box }
 
-:root {
-  --width-1: 24rem;
-  --width-2: 32rem;
-  --width-3: 48rem;
-  --width-4: 64rem;
-}
-

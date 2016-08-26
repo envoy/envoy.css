@@ -36,9 +36,3 @@
 .rounded-left   { border-radius: var(--border-radius) 0 0 var(--border-radius) }
 
 .not-rounded { border-radius: 0 }
-
-:root {
-  --border-width: 1px;
-  --border-radius: 2px;
-}
-

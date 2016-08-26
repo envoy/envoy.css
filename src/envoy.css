@@ -1,5 +1,6 @@
 /*! Envoy.css | https://envoy.design | MIT License */
 
+@import './_variables';
 @import './_type-scale';
 @import './_typography';
 @import './_layout';
