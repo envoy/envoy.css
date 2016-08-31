@@ -8,6 +8,7 @@ module.exports = {
     'postcss-calc',
     'postcss-discard-comments',
     'postcss-remove-root',
+    'postcss-color-function',
     'autoprefixer',
     'postcss-reporter'
   ],

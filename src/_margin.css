@@ -63,6 +63,13 @@
 .mxn5 { margin-left: -var(--space-5); margin-right: -var(--space-5); }
 .mxn6 { margin-left: -var(--space-6); margin-right: -var(--space-6); }
 
+.mbn1 { margin-bottom: -var(--space-1); }
+.mbn2 { margin-bottom: -var(--space-2); }
+.mbn3 { margin-bottom: -var(--space-3); }
+.mbn4 { margin-bottom: -var(--space-4); }
+.mbn5 { margin-bottom: -var(--space-5); }
+.mbn6 { margin-bottom: -var(--space-6); }
+
 .ml-auto { margin-left: auto }
 .mr-auto { margin-right: auto }
 .mx-auto { margin-left: auto; margin-right: auto; }

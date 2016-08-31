@@ -12,12 +12,3 @@
   padding-left: var(--button-narrow-padding-x);
   padding-right: var(--button-narrow-padding-x);
 }
-
-:root {
-  --button-small-padding-y: .25rem;
-  --button-small-padding-x: .5rem;
-  --button-big-padding-y: 1rem;
-  --button-big-padding-x: 1.25rem;
-  --button-narrow-padding-x: .5rem;
-}
-

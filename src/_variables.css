@@ -1,31 +1,16 @@
-/*
-
-   Envoy.css Variables
-
-   - Colors
-   - Type Scale
-   - Margins
-
-*/
+/* Envoy.css Variables */
 
 :root {
   --border-width: 1px;
   --border-radius: 2px;
-}
 
-:root {
+
   --width-1: 24rem;
   --width-2: 32rem;
   --width-3: 48rem;
   --width-4: 64rem;
-}
-
-:root {
-  --media-object-space: var(--space-1);
-}
 
 
-:root {
   --aqua:  #7FDBFF;
   --blue:  #0074D9;
   --navy:  #001F3F;
@@ -46,9 +31,8 @@
   --gray:   #F6F6F7;
   --slate:  #282C36;
   --black:  #111111;
-}
 
-:root {
+
   --h00: 4rem;      /* 64px */
   --h0: 3rem;       /* 48px */
   --h1: 3.5rem;     /* 56px */
@@ -61,16 +45,14 @@
   --line-height-2: 1.2;
   --line-height-3: 1.5;
   --line-height-4: 2;
-}
 
-:root {
+
   --letter-spacing: 1;
   --caps-letter-spacing: .2em;
   --bold-font-weight: 600;
   --medium-font-weight: bold;
-}
 
-:root {
+
   --space-0: 0.25rem; /* 4px */
   --space-1: 0.5rem;  /* 8px */
   --space-2: 1rem;    /* 16px */
@@ -78,5 +60,30 @@
   --space-4: 2rem;    /* 32px */
   --space-5: 3rem;    /* 48px */
   --space-6: 5rem;    /* 80px */
+
+
+  --darken-1: rgba(0, 0, 0, .0625);
+  --darken-2: rgba(0, 0, 0, .125);
+  --darken-3: rgba(0, 0, 0, .25);
+
+
+  --media-object-space: var(--space-1);
+
+
+  --button-font-family: inherit;
+  --button-font-size: inherit;
+  --button-font-weight: normal;
+  --button-line-height: var(--line-height-2);
+  --button-padding-y: var(--space-1);
+  --button-padding-x: var(--space-2);
+  --button-small-padding-y: var(--space-0);
+  --button-small-padding-x: var(--space-1);
+  --button-big-padding-y: var(--space-2);
+  --button-big-padding-x: var(--space-3);
+  --button-narrow-padding-x: var(--space-1);
+
+
+  --button-color: #fff;
+  --button-background-color: var(--red);
 }
 

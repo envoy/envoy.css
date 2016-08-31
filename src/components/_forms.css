@@ -1,6 +1,7 @@
-/* Basscss Forms */
+/* Envoy.css Forms */
 
 .label {
+  color: var(--slate);
   font-size: var(--h5);
   display: block;
   margin-bottom: var(--space-0);
@@ -8,38 +9,58 @@
 
 .input {
   font-family: inherit;
-  font-size: inherit;
+  font-size: var(--h5);
   display: block;
   width: 100%;
-  height: var(--h2);
-  padding: var(--space-1);
-  margin-bottom: var(--space-4);
-  border: 1px solid var(--slate);
+  padding: var(--space-2);
+  margin-bottom: var(--space-3);
+  border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);
   box-sizing: border-box;
 }
 
 .select {
+  appearance: none;
+  background: transparent no-repeat right 1rem center url(/images/icons/carat.svg);
   font-family: inherit;
-  font-size: inherit;
+  font-size: var(--h5);
   display: block;
   width: 100%;
-  height: var(--h2);
-  padding: var(--space-1);
-  margin-bottom: var(--space-4);
-  border: 1px solid var(--slate);
+  padding: var(--space-2);
+  margin-bottom: var(--space-3);
+  border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);
   box-sizing: border-box;
 }
 
 .textarea {
   font-family: inherit;
-  font-size: inherit;
+  font-size: var(--h5);
   display: block;
   width: 100%;
-  padding: var(--space-1);
-  margin-bottom: var(--space-4);
-  border: 1px solid var(--slate);
+  padding: var(--space-2);
+  margin-bottom: var(--space-3);
+  border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);
   box-sizing: border-box;
+}
+
+.input:focus, .select:focus, .textarea:focus {
+  outline: none;
+  border: 1px solid var(--red);
+  box-shadow: 0 0 3px color(var(--red) a(50%));
+}
+
+.required-label::after {
+  content: '●';
+  color: var(--red);
+  font-size: 8px;
+  margin-left: 8px;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+}
+
+.placeholder-invalid:invalid {
+  color: color(var(--slate) a(50%));
 }
