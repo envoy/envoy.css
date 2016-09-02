@@ -3,7 +3,3 @@
 @import "./responsive-padding/sm-padding";
 @import "./responsive-padding/md-padding";
 @import "./responsive-padding/lg-padding";
-
-@custom-media --breakpoint-sm (min-width: 40em);
-@custom-media --breakpoint-md (min-width: 52em);
-@custom-media --breakpoint-lg (min-width: 64em);

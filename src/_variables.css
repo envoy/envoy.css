@@ -87,3 +87,9 @@
   --button-background-color: var(--red);
 }
 
+@custom-media --breakpoint-xs (max-width: 30rem);
+@custom-media --breakpoint-sm (min-width: 30rem);
+@custom-media --breakpoint-sm-md (min-width: 30rem) and (max-width: 48rem);
+@custom-media --breakpoint-md (min-width: 48rem);
+@custom-media --breakpoint-md-lg (min-width: 48rem) and (max-width: 64rem);
+@custom-media --breakpoint-lg (min-width: 64rem);
