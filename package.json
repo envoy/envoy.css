@@ -34,8 +34,7 @@
   },
   "author": "Alex Baldwin",
   "license": "MIT",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": ""
@@ -43,5 +42,9 @@
   "bugs": {
     "url": ""
   },
-  "homepage": ""
+  "homepage": "",
+  "dependencies": {
+    "postcss-cli": "^2.6.0",
+    "postcss-import": "^8.1.2"
+  }
 }

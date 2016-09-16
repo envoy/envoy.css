@@ -23,3 +23,8 @@
 .btn-outline.is-disabled {
   opacity: .5;
 }
+
+.red.btn-outline:hover, .red.btn-outline:focus {
+  background: var(--red);
+  color: white;
+}

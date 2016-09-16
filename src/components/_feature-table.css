@@ -1,0 +1,43 @@
+.featureTable .featureTableHeader th {
+  border: 1px solid var(--border-color);
+  border-left: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: var(--bold-font-weight);
+}
+
+.featureTable .featureTableHeader th:first-child {
+  border-top: none;
+}
+
+.featureTable .featureTableHeader th:nth-child(4) {
+  background: var(--red);
+  color: var(--white);
+  border: none;
+}
+
+td.featureDescription {
+  max-width: 200px;
+  width: auto;
+  text-align: left;
+  background: var(--white);
+  padding: 0 .5em;
+}
+
+.featureTable td {
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+
+td.featureDescription h4 {
+  margin-bottom: 0;
+}
+
+td.featureDescription p {
+}
+
+.featureTable .featureTableSeperator th {
+  background: var(--gray);
+  padding: .25em .5em;
+}
+
