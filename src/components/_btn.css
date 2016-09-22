@@ -9,7 +9,6 @@
   display: inline-block;
   line-height: var(--button-line-height);
   padding: var(--button-padding-y) var(--button-padding-x);
-  margin: 0;
   height: auto;
   border: var(--border-width) solid transparent;
   vertical-align: middle;
