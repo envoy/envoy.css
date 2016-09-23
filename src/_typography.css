@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, .bold {
 .medium  { font-weight: var(--medium-font-weight, normal) }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
-.caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+.caps    { text-transform: uppercase; }
 
 .left-align   { text-align: left }
 .center       { text-align: center }
