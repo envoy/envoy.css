@@ -1,5 +1,15 @@
 /* Envoy.css Type Scale */
 
+.h00 {
+  font-size: var(--h00);
+  line-height: var(--line-height-2);
+}
+
+.h0 {
+  font-size: var(--h0);
+  line-height: var(--line-height-2);
+}
+
 .h1 {
   font-size: var(--h1);
   line-height: var(--line-height-2);
