@@ -25,6 +25,7 @@
 }
 
 .red.btn-outline:hover, .red.btn-outline:focus {
+  border-color: var(--red);
   background: var(--red);
   color: white;
 }
