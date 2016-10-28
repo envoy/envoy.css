@@ -1,6 +1,5 @@
 
 @media (--breakpoint-lg) {
-  .lg-h00 { font-size: var(--h00) }
   .lg-h0 { font-size: var(--h0) }
   .lg-h1 { font-size: var(--h1) }
   .lg-h2 { font-size: var(--h2) }
