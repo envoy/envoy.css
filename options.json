@@ -1,0 +1,19 @@
+{
+  "use": [
+    "postcss-import",
+    "postcss-custom-media",
+    "postcss-custom-properties",
+    "postcss-calc",
+    "postcss-discard-comments",
+    "postcss-remove-root",
+    "postcss-color-function",
+    "autoprefixer",
+    "postcss-reporter"
+  ],
+  "input": "src/envoy.css",
+  "output": "css/envoy.css",
+  "local-plugins": true,
+  "autoprefixer": {
+    "browsers": "> 5%"
+  }
+}
