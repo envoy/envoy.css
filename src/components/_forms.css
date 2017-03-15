@@ -11,12 +11,14 @@
   font-family: inherit;
   font-size: var(--h5);
   display: block;
+  height: var(--h1);
   width: 100%;
   padding: var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);
   box-sizing: border-box;
+  vertical-align: middle;
 }
 
 .select {
@@ -25,12 +27,14 @@
   font-family: inherit;
   font-size: var(--h5);
   display: block;
+  height: var(--h1);
   width: 100%;
   padding: var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);
   box-sizing: border-box;
+  vertical-align: middle;
 }
 
 .textarea {
