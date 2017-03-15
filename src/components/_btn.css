@@ -32,3 +32,14 @@
   border: 0;
   padding: 0;
 }
+
+.btn-big-text { font-size: var(--h4); }
+
+.btn-hover-white-fill:hover {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--red);
+}
+
+.btn-min-width { min-width: 10rem }
+

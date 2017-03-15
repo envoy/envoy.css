@@ -78,7 +78,31 @@ h1, h2, h3, h4, h5, h6, .bold {
   white-space: nowrap;
 }
 
-.list-reset {
+.list-reset, .list-style-none {
   list-style: none;
   padding-left: 0;
 }
+
+.hanging-quote:first-letter {
+  margin-left: -var(--space-1);
+  font-kerning: none;
+}
+
+.hanging-emdash:first-letter {
+  margin-left: -var(--space-2);
+  font-kerning: none;
+}
+
+.letter-rule:first-letter {
+  border-top: var(--space-0) solid var(--red);
+  padding-top: var(--space-2);
+}
+
+.letters-rule:before {
+  content: '';
+  display: block;
+  border-top: var(--space-0) solid var(--red);
+  width: var(--space-4);
+  margin-bottom: var(--space-2);
+}
+

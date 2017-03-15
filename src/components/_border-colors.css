@@ -1,9 +1,7 @@
 /* Basscss Border Colors */
 
-@import '../_variables.css';
-
 .border-black  { border-color: var(--black) }
-.border-gray   { border-color: var(--gray) }
+.border-gray   { border-color: var(--border-color) }
 .border-silver { border-color: var(--silver) }
 .border-white  { border-color: var(--white) }
 

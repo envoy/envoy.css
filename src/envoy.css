@@ -44,3 +44,5 @@
 @import './components/_feature-table';
 @import './components/_tooltip';
 @import './components/_nav';
+@import './components/_quote-tip';
+@import './components/_step-number';
