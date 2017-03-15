@@ -44,3 +44,5 @@ p {
   line-height: var(--line-height-3);
 }
 
+.xs { font-size: var(--xs) }
+

@@ -78,9 +78,15 @@ h1, h2, h3, h4, h5, h6, .bold {
   white-space: nowrap;
 }
 
-.list-reset, .list-style-none {
+.list-reset {
   list-style: none;
   padding-left: 0;
+}
+
+.list-style-none {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .hanging-quote:first-letter {
