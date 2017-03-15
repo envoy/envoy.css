@@ -2,7 +2,7 @@
   border: 1px solid var(--border-color);
   border-left: none;
   text-align: center;
-  padding: 15px;
+  padding: var(--space-2);
   font-weight: var(--bold-font-weight);
 }
 
@@ -11,17 +11,16 @@
 }
 
 .featureTable .featureTableHeader th:nth-child(4) {
-  background: var(--red);
+  background-color: var(--red);
   color: var(--white);
   border: none;
 }
 
 td.featureDescription {
-  max-width: 200px;
   width: auto;
   text-align: left;
-  background: var(--white);
-  padding: 0 .5em;
+  background-color: var(--white);
+  padding: 0 var(--space-1);
 }
 
 .featureTable td {
@@ -29,15 +28,28 @@ td.featureDescription {
   border-right: 1px solid var(--border-color);
 }
 
-td.featureDescription h4 {
-  margin-bottom: 0;
+.featureTable .featureTableSeperator th {
+  background-color: var(--gray);
+  padding: var(--space-1) var(--space-2);
 }
 
-td.featureDescription p {
+.tr-spacer > td {
+  padding-bottom: var(--space-5);
+}
+
+.featureTable td {
+  text-align: center;
+}
+
+.featureTable .featureDescription {
+  text-align: left;
 }
 
 .featureTable .featureTableSeperator th {
-  background: var(--gray);
-  padding: .25em .5em;
+  padding: var(--space-1);
+}
+
+.featureTable .featureTableSeperator th.bg-red {
+  background-color: var(--red);
 }
 

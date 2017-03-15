@@ -1,0 +1,67 @@
+.wrapper {
+  color: rgba(40,44,54,0.4);
+  display: inline-block;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  cursor: help;
+  position: relative;
+  -webkit-transform: translateZ(0); /* webkit flicker fix */
+}
+
+.wrapper .tooltip {
+  background: rgba(40,44,54,0.93);
+  bottom: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 0.875rem;
+  display: block;
+  left: -25px;
+  margin-bottom: 15px;
+  opacity: 0;
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  width: 12.5rem;
+  transform: translateY(10px);
+  transition: all .25s ease-out;
+  border-radius: 2px;
+}
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.wrapper .tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* CSS Triangles */
+.wrapper .tooltip:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid rgba(40,44,54,0.93) 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 20%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+
+.wrapper:hover {
+  color: #EF3934;
+}
+
+.wrapper:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0px);
+}

@@ -42,3 +42,5 @@
 @import './components/_responsive-typography';
 
 @import './components/_feature-table';
+@import './components/_tooltip';
+@import './components/_nav';

@@ -29,3 +29,9 @@
 
 .border-box { box-sizing: border-box }
 
+.container {
+  max-width: 68rem;
+  padding-right: var(--space-4);
+  padding-left: var(--space-4);
+}
+

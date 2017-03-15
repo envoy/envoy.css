@@ -1,0 +1,82 @@
+/* Envoy.com navigation */
+.js-mobile-nav-dropdown {
+  transform: translate3d(0, -.5rem, 0);
+  opacity: .5;
+  transition-duration: .22s;
+  will-change: transform, opacity;
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(.455, .03, .515, .955);
+}
+
+.js-mobile-nav-dropdown.js-active {
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.js-mobile-nav {
+  transform: rotate3d(1, 1, 0, -20deg);
+  transform-origin: 100% 0;
+  opacity: 0;
+  will-change: transform, opacity;
+  transition-property: transform, opacity, height;
+  transition-duration: .22s;
+  pointer-events: none;
+}
+
+.js-mobile-nav.js-active {
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-logo,
+.nav-logo:focus,
+.nav-logo:hover {
+  background-image: url(/images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: contain;
+  height: 2.125rem;
+  width: 6.75rem;
+  color: transparent
+}
+
+.nav-carat {
+  top: 2rem;
+  min-width: 12.5rem
+}
+
+.nav-carat:before {
+  content: '';
+  background: #fff;
+  width: .5rem;
+  height: .5rem;
+  position: absolute;
+  top: -.25rem;
+  right: 1.25rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  transform: rotate(45deg)
+}
+.has-carat {
+  background: url(/images/icons/nav-carat.svg) no-repeat right -3px;
+  padding-right: 1.2rem
+}
+
+.nav-white .red.has-carat,
+.nav-white a:hover.has-carat,
+.red.has-carat,
+a:hover.has-carat {
+  background-image: url(/images/icons/nav-carat-red.svg)
+}
+
+.nav-white .has-carat {
+  background-image: url(/images/icons/nav-carat-white.svg)
+}
+
+.flip-carat {
+  transform: rotate(180deg);
+  position: relative;
+  top: 7px
+}
+
