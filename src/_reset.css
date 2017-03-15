@@ -1,0 +1,50 @@
+/* Envoy.css Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+  color: var(--granite);
+}
+
+a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: var(--pink);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%
+}
+
+blockquote {
+  margin: 0;
+}
+
+cite {
+  font-style: normal;
+}
+
+ol,
+ul {
+  margin-left: -1.5rem;
+}
+
+
