@@ -33,7 +33,7 @@
 .nav-logo,
 .nav-logo:focus,
 .nav-logo:hover {
-  background-image: url(/images/logo.svg);
+  background-image: url(https://envoy.com/images/logo.svg);
   background-repeat: no-repeat;
   background-position: 0;
   background-size: contain;
@@ -59,7 +59,7 @@
   transform: rotate(45deg)
 }
 .has-carat {
-  background: url(/images/icons/nav-carat.svg) no-repeat right -3px;
+  background: url(https://envoy.com/images/icons/nav-carat.svg) no-repeat right -3px;
   padding-right: 1.2rem
 }
 
@@ -67,11 +67,11 @@
 .nav-white a:hover.has-carat,
 .red.has-carat,
 a:hover.has-carat {
-  background-image: url(/images/icons/nav-carat-red.svg)
+  background-image: url(https://envoy.com/images/icons/nav-carat-red.svg)
 }
 
 .nav-white .has-carat {
-  background-image: url(/images/icons/nav-carat-white.svg)
+  background-image: url(https://envoy.com/images/icons/nav-carat-white.svg)
 }
 
 .flip-carat {
