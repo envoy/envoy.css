@@ -14,19 +14,15 @@
 @import './_border';
 @import './_hide';
 
-/* Components  */
-
+/* Standard components  */
 @import './components/_all';
 @import './components/_background-images';
 @import './components/_border-colors';
 @import './components/_btn';
 @import './components/_btn-outline';
-@import './components/_btn-primary';
 @import './components/_btn-sizes';
-
 @import './components/_background-colors';
 @import './components/_colors';
-
 @import './components/_darken';
 @import './components/_forms';
 @import './components/_input-range';
@@ -41,8 +37,13 @@
 @import './components/_responsive-type-scale';
 @import './components/_responsive-typography';
 
+/* Custom components */
 @import './components/_feature-table';
-@import './components/_tooltip';
+@import './components/_gradients';
+@import './components/_hover';
 @import './components/_nav';
 @import './components/_quote-tip';
+@import './components/_shadow';
+@import './components/_skewed';
 @import './components/_step-number';
+@import './components/_tooltip';

@@ -1,0 +1,23 @@
+.hover-unmute:hover {
+  transition: opacity .2s ease-in-out;
+  opacity: 1;
+}
+
+.hover-white:hover {
+  transition: all .2s ease-in-out;
+  color: var(--white);
+  opacity: 1;
+}
+
+.hover-slate:hover {
+  color: var(--slate);
+}
+
+.hover-red:hover {
+  color: var(--red);
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+

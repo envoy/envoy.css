@@ -20,3 +20,10 @@
 .bg-fuchsia { background-color: var(--fuchsia) }
 .bg-purple  { background-color: var(--purple) }
 .bg-maroon  { background-color: var(--maroon) }
+
+/* Used for alerts */
+.bg-light-yellow  { background: color(var(--yellow) a(10%)) }
+.bg-light-green   { background: color(var(--green) a(10%)) }
+.bg-light-blue    { background: color(var(--blue) a(10%)) }
+.bg-light-red     { background: color(var(--red) a(10%)) }
+

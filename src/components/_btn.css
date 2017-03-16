@@ -1,45 +1,28 @@
-/* Basscss Btn */
+/* Btns */
 
-.btn {
-  font-family: var(--button-font-family);
-  font-size: var(--button-font-size);
-  font-weight: var(--button-font-weight);
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  line-height: var(--button-line-height);
-  padding: var(--button-padding-y) var(--button-padding-x);
-  height: auto;
-  border: var(--border-width) solid transparent;
-  vertical-align: middle;
-  -webkit-appearance: none;
-  color: inherit;
-  background-color: transparent;
-  transition: all .2s ease-in-out;
+.btn-primary {
+  color: var(--white);
+  background-color: var(--red);
+  border-radius: var(--border-radius);
 }
 
-.btn:hover {
-  text-decoration: none;
+.btn-primary:hover {
+  color: var(--white);
+  box-shadow: inset 0 0 0 20rem var(--darken-1);
 }
 
-.btn:focus {
-  outline: none;
-  border-color: var(--darken-2);
-  box-shadow: 0 0 0 3px var(--darken-3);
+.btn-primary:active {
+  color: var(--white);
+  box-shadow: inset 0 0 0 20rem var(--darken-2),
+    inset 0 3px 4px 0 var(--darken-3),
+    0 0 1px var(--darken-2);
 }
 
-::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+.btn-primary:disabled,
+.btn-primary.is-disabled {
+  opacity: .5;
 }
 
-.btn-big-text { font-size: var(--h4); }
-
-.btn-hover-white-fill:hover {
-  background: var(--white);
-  border-color: var(--white);
-  color: var(--red);
-}
-
-.btn-min-width { min-width: 10rem }
+.btn-white { background: white; }
+.btn-hover-red-text { text: #ef3934; }
 

@@ -1,0 +1,15 @@
+.bg-quote-slate { background: linear-gradient(-80deg,transparent 80px,var(--slate) 0,var(--slate)); }
+.bg-gray-50-slant { background: linear-gradient( 8deg, var(--gray), var(--gray) 50%, var(--white) 50%, var(--white)); }
+.bg-gray-70-slant { background: linear-gradient( 8deg, var(--gray), var(--gray) 70%, var(--white) 70%, var(--white)); }
+.bg-white-50-slant { background: linear-gradient( 8deg, var(--white), var(--white) 50%, var(--gray) 50%, var(--gray)); }
+
+.bg-gray-white-padding { background-image: linear-gradient(0deg, var(--white), var(--white) 15rem, transparent 0, transparent), linear-gradient(180deg, var(--white), var(--white) 5rem, transparent 0, transparent) }
+.bg-gray-white-padding-top { background-image: linear-gradient(0deg, var(--white), var(--white) 15rem, transparent 0, transparent) }
+.bg-gray-white-padding-bottom { background-image: linear-gradient(180deg, var(--white), var(--white) 5rem, transparent 0, transparent) }
+
+.bg-gray-80 { background: linear-gradient(180deg, var(--gray) 80%, var(--white) 0, var(--white)) }
+.bg-gray-50-bottom { background: linear-gradient(180deg, var(--gray) 50%, var(--white) 0, var(--white)) }
+.bg-gray-50-top { background: linear-gradient(0deg, var(--gray) 50%, var(--white) 0, var(--white)) }
+
+.bg-quote-red { background: linear-gradient(-80deg, transparent 80px, var(--red) 0, var(--red)) }
+
