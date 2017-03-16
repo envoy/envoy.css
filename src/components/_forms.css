@@ -11,7 +11,7 @@
   font-family: inherit;
   font-size: var(--h5);
   display: block;
-  height: var(--h1);
+  min-height: var(--h1);
   width: 100%;
   padding: var(--space-2);
   margin-bottom: var(--space-3);
@@ -23,7 +23,7 @@
 
 .select {
   appearance: none;
-  background: transparent no-repeat right 1rem center url(/images/icons/carat.svg);
+  background: transparent no-repeat right 1rem center url(https://envoy.com/images/icons/carat.svg);
   font-family: inherit;
   font-size: var(--h5);
   display: block;
