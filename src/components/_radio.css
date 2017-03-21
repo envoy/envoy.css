@@ -1,0 +1,55 @@
+.radio {
+  display: block;
+}
+
+.radio.disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.radio > input[type=radio] {
+  position: relative;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #979797;
+  background-image: radial-gradient(white 0%, white 100%);
+  background-size: 8px 8px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  vertical-align: text-bottom;
+  appearance: none;
+  transition: box-shadow .1s, border-color .1s, background-size .1s ease-out;
+  cursor: pointer;
+}
+
+.radio.disabled > input[type=radio] {
+  cursor: default;
+}
+
+/* tested on chrome 56 and firefox 53 */
+.radio > input[type=radio]:checked {
+  background-size: 14px 14px;
+  background-image: radial-gradient(#ef3934 50%, white 58%, white 100%);
+}
+
+.radio > input[type=radio]:focus {
+  outline: none;
+  border-color: #ef3934;
+  box-shadow: 0 0 3px rgba(239,57,52,.5);
+}
+
+.radio > label {
+  display: inline-block;
+  margin-left: .4rem;
+  color: #282c36;
+  font-size: 1rem;
+  margin-bottom: .25rem;
+  cursor: pointer;
+}
+
+.radio.disabled > label {
+  cursor: default;
+}
+
