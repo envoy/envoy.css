@@ -1,5 +1,21 @@
 /* Btns */
 
+.btn {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 1.2;
+  padding: .5rem 1rem;
+  height: auto;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  color: inherit;
+  background-color: transparent;
+  transition: all .2s ease-in-out;
+}
+
 .btn-primary {
   color: var(--white);
   background-color: var(--red);
@@ -14,8 +30,8 @@
 .btn-primary:active {
   color: var(--white);
   box-shadow: inset 0 0 0 20rem var(--darken-2),
-    inset 0 3px 4px 0 var(--darken-3),
-    0 0 1px var(--darken-2);
+  inset 0 3px 4px 0 var(--darken-3),
+  0 0 1px var(--darken-2);
 }
 
 .btn-primary:disabled,
@@ -26,3 +42,6 @@
 .btn-white { background: white; }
 .btn-hover-red-text { text: #ef3934; }
 
+.btn-min-width {
+  min-width: 10rem;
+}
