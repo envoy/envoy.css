@@ -24,3 +24,8 @@
 
 .color-inherit { color: inherit }
 .muted { opacity: .5 }
+
+.bg-white-97 {
+  background-color: rgba(255,255,255,.97);
+}
+

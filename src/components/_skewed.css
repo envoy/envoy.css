@@ -1,5 +1,11 @@
-
 .skewed { transform: skewY(8deg) }
 .skewed-child { transform: skewY(-8deg) }
 
+/* Splits background perfectly at 50% */
+.skew-50 {
+  transform: skewY(8deg) translateY(50%);
+}
+.skew-child-50 {
+  transform: skewY(-8deg) translateY(-50%);
+}
 

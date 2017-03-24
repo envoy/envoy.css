@@ -35,3 +35,7 @@
   padding-left: var(--space-4);
 }
 
+.full-container {
+  max-width: 105rem;
+}
+
