@@ -13,7 +13,7 @@
   display: block;
   min-height: var(--h1);
   width: 100%;
-  padding: var(--space-2);
+  padding: 0 var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);
@@ -23,13 +23,13 @@
 
 .select {
   appearance: none;
-  background: transparent no-repeat right 1rem center url(https://envoy.com/images/icons/carat.svg);
+  background: transparent no-repeat right 1rem center url(https://envoy.com/images/icons/select-carat.svg);
   font-family: inherit;
   font-size: var(--h5);
   display: block;
-  height: var(--h1);
+  min-height: var(--h1);
   width: 100%;
-  padding: var(--space-2);
+  padding: 0 var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);
