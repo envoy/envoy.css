@@ -55,6 +55,11 @@
   box-shadow: 0 0 3px color(var(--red) a(50%));
 }
 
+
+.focus-reset:focus {
+  box-shadow: none !important;
+}
+
 .required-label::after {
   content: '●';
   color: var(--red);

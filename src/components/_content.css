@@ -1,0 +1,80 @@
+.content .pull-left {
+  float: left;
+  padding: 1.5rem 3rem 1.5rem 0;
+  margin: 0;
+}
+
+.content  .pull-right {
+  float: right;
+  padding: 1.5rem 0 1.5rem 3rem;
+  margin: 0;
+}
+
+.content blockquote {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  border-left: 2px solid #f4352b;
+  padding-left: 40px;
+  font-style: italic;
+}
+
+.content li {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.content blockquote p:last-child {
+  margin: 0;
+}
+
+.content  blockquote.cite  p:last-child {
+  font-size: 14px;
+  font-style: normal;
+  color: rgba(40,44,54,0.5);
+  margin-bottom: 48px;
+}
+
+.content  blockquote.cite p:first-child:first-letter {
+  margin-left: -0.5rem;
+  font-kerning: none;
+}
+
+.content  blockquote.cite  p:last-child:first-letter {
+  margin-left: -1rem;
+  font-kerning: none;
+}
+
+.content h2 {
+  color: #282c36;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.content h3, .content h4, .content h5, .content h6 {
+  color: #282c36;
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.125rem;
+}
+
+.content img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.content hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-top: 1px solid #E9E9EA;
+  border-bottom: none;
+}
+
+.content .cta {
+  border-top: 1px solid #E9E9EA;
+  margin-top: 48px;
+  padding-top: 1rem;
+  font-style: italic;
+  color: rgba(40,44,54,0.5);
+}
+

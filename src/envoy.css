@@ -38,6 +38,7 @@
 @import './components/_responsive-typography';
 
 /* Custom components */
+@import './components/_content';
 @import './components/_feature-table';
 @import './components/_gradients';
 @import './components/_hover';
