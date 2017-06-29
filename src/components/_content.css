@@ -98,7 +98,7 @@
 
 .content ol > li:before {
   font-size: 0.75rem;
-  background-color: #468EE5;
+  background-color: var(--red);
   height: 1rem;
   width: 1rem;
   margin-left: -2rem;
@@ -139,6 +139,7 @@
 }
 
 .content li > ol, .content li > ul {
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
