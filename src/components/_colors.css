@@ -1,5 +1,6 @@
 /* Envoy.css Colors */
 
+/* @start color */
 .black  { color: var(--black) }
 .slate  { color: var(--slate) }
 .granite  { color: var(--granite) }
@@ -21,6 +22,7 @@
 .fuchsia { color: var(--fuchsia) }
 .purple  { color: var(--purple) }
 .maroon  { color: var(--maroon) }
+/* @end color */
 
 .color-inherit { color: inherit }
 .muted { opacity: .5 }

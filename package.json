@@ -7,7 +7,8 @@
     "build": "postcss -c postcss.config.js",
     "minify": "postcss -u cssnano css/envoy.css -o css/envoy.min.css",
     "prepublish": "mkdir -p css && npm run build && npm run minify",
-    "start": "postcss -c postcss.config.js -w"
+    "start": "postcss -c postcss.config.js -w",
+    "guide": "npm run build && node styleGuide.js"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
@@ -50,6 +51,7 @@
   "dependencies": {
     "postcss": "^5.2.16",
     "postcss-cli": "2.6.0",
-    "postcss-import": "8.1.2"
+    "postcss-import": "8.1.2",
+    "postcss-style-guide": "^0.14.0"
   }
 }
