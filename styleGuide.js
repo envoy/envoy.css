@@ -4,9 +4,13 @@ var styleguide = require('postcss-style-guide');
 var input = fs.readFileSync('css/envoy.css', 'utf8');
 
 var output = postcss([
-  styleguide
+  styleguide({
+    project: 'envoy.css',
+    showCode: true,
+    dest: 'docs/index.html'
+  })
 ]).process(input)
-.then(function (result) {
-  var output = fs.readFileSync('styleGuide/index.html', 'utf8');
-  // console.log('output:', output);
+.then(function (reuslt) {
+  var output = fs.readFileSync('docs/index.html', 'utf8');
+  console.log('output:', output);
 });
