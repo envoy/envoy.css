@@ -1,6 +1,6 @@
 {
   "name": "envoy.css",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Envoy's internal CSS framework",
   "style": "src/envoy.css",
   "scripts": {

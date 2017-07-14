@@ -1,5 +1,15 @@
 
-.shadow {
-  box-shadow: 0 0 30px rgba(0, 0, 0, .1)
+.shadow { box-shadow: 0 0 30px rgba(0, 0, 0, .1) }
+
+@media (--breakpoint-sm) {
+  .sm-shadow { box-shadow: 0 0 30px rgba(0, 0, 0, .1) }
+}
+
+@media (--breakpoint-md) {
+  .md-shadow { box-shadow: 0 0 30px rgba(0, 0, 0, .1) }
+}
+
+@media (--breakpoint-lg) {
+  .lg-shadow { box-shadow: 0 0 30px rgba(0, 0, 0, .1) }
 }
 
