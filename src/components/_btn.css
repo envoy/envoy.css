@@ -23,7 +23,10 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
   font-weight: 400;
   cursor: pointer;
   line-height: 1.2;
-  padding: .5rem 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   height: auto;
   border: 1px solid transparent;
   vertical-align: middle;
