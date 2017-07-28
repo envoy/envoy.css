@@ -45,6 +45,7 @@
   --h4: 1.25rem;    /* 20px */
   --h5: 1rem;       /* 16px */
   --h6: 0.875rem;   /* 14px */
+  --h7: 0.75rem;    /* 12px */
   --xs: 0.625rem;   /* 10px */
   --line-height-1: 1;
   --line-height-2: 1.2;
@@ -64,6 +65,7 @@
   --space-4: 2rem;    /* 32px */
   --space-5: 3rem;    /* 48px */
   --space-6: 5rem;    /* 80px */
+  --space-7: 10rem;   /* 160px */
 
 
   --darken-1: rgba(0, 0, 0, .0625);

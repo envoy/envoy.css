@@ -1,0 +1,19 @@
+/*
+@styleguide
+
+@title Btn caps
+
+Use the button caps classes on and `<a>`, `<button>`, `<input>` elements.
+
+`<button class="btn btn-outline btn-caps red">Caps outline button</button>`
+
+<button class="btn btn-outline btn-caps red">Caps outline button</button>
+
+*/
+
+.btn-caps {
+  font-size: var(--h7);
+  font-weight: var(--bold-font-weight);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
