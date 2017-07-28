@@ -1,4 +1,16 @@
-/* Basscss Btn Outline */
+/*
+@styleguide
+
+@title Button outline
+
+Use the button outline classes on and `<a>`, `<button>`, `<input>` elements.
+
+`<button class="btn btn-outline red">Outline button</button>`
+
+<button class="btn btn-outline red">Outline button</button>
+
+*/
+
 
 .btn-outline,
 .btn-outline:hover {

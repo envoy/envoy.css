@@ -7,7 +7,9 @@ var output = postcss([
   styleguide({
     project: 'envoy.css',
     showCode: true,
-    dest: 'docs/index.html'
+    dest: 'docs/index.html',
+    theme: 'Envoy',
+    themePath: 'psg-theme',
   })
 ]).process(input)
 .then(function (reuslt) {

@@ -1,4 +1,15 @@
-/* Basscss Background Images */
+/*
+@styleguide
+
+@title Background images
+
+Use the button classes on and `<a>`, `<button>`, `<input>` elements.
+
+`<div class="p4 bg-cover bg-center bg-no-repeat" style="background-image: url(http://fillmurray.com/g/200/300);"></div>`
+
+<div class="p4 bg-cover bg-center bg-no-repeat" style="background-image: url(http://fillmurray.com/g/200/300);"></div>
+
+*/
 
 .bg-cover   { background-size: cover }
 .bg-contain { background-size: contain }

@@ -1,5 +1,3 @@
-/* Btns */
-
 /*
 @styleguide
 
@@ -7,13 +5,10 @@
 
 Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 
-`<button class="button button--large button--red">Red Button</button>`
+`<button class="btn btn-primary">Primary button</button>`
 
-<button class="button button--large button--red">Red Button</button>
+<button class="btn btn-primary">Primary button</button>
 
-<button class="btn btn-min-width center bg-red white">Red Button</button>
-
-<button class="btn btn-outline red">Red Button</button>
 */
 
 .btn {

@@ -1,4 +1,24 @@
-/* Basscss Btn Sizes */
+/*
+@styleguide
+
+@title Button sizes
+
+Use the button size classes on and `<a>`, `<button>`, `<input>` elements.
+
+`<button class="btn btn-primary btn-small">Small primary button</button>`
+
+<button class="btn btn-primary btn-small">Small primary button</button>
+
+`<button class="btn btn-primary btn-big">Big primary button</button>`
+
+<button class="btn btn-primary btn-big">Big primary button</button>
+
+`<button class="btn btn-primary btn-narrow">Narrow primary button</button>`
+
+<button class="btn btn-primary btn-narrow">Narrow primary button</button>
+
+*/
+
 
 .btn-small {
   padding: var(--button-small-padding-y) var(--button-small-padding-x);
