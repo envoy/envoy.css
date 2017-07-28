@@ -15,7 +15,7 @@
             <img title="Envoy" src="https://envoy.com/images/logo.svg">
           </a>
 
-          <ul class="psg-ComponentList">
+          <ul class="psg-ComponentList list-style-none">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
               <a href="#color-palette" class="psg-ComponentList__item">
                 <li>Color palette</li>
@@ -38,7 +38,7 @@
           <div class="psg-container">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
             <section class="psg-section">
-                <h2 id="color-palette" class="psg-component-title">Color Palette</h2>
+                <h2 id="color-palette" class="mt0 mb3 h2 red">Color Palette</h2>
                 <div class="psg-contents">
                   <div class="clearfix mxn2">
                     <% colorPalette.forEach(function (palette) { %>
@@ -57,7 +57,7 @@
             <% } %>
             <% maps.forEach(function (map) { %>
                 <section class="psg-section">
-                    <h2 id="<%= map.link.id %>" class="psg-component-title"><%= map.link.title %></h2>
+                    <h2 id="<%= map.link.id %>" class="mt0 mb3 h2 red"><%= map.link.title %></h2>
 
                     <div class="psg-contents">
                     <div class="psg-doc border-bottom pb3 mb3">
