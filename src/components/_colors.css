@@ -1,6 +1,31 @@
-/* Envoy.css Colors */
+/* Envoy.css colors */
 
 /* @start color */
+:root {
+  black: var(--black);
+  slate: var(--slate);
+  granite: var(--granite);
+  gray: var(--gray);
+  silver: var(--silver);
+  white: var(--white);
+
+  aqua: var(--aqua);
+  blue: var(--blue);
+  navy: var(--navy);
+  teal: var(--teal);
+  green: var(--green);
+  olive: var(--olive);
+  lime: var(--lime);
+
+  yellow: var(--yellow);
+  orange: var(--orange);
+  red: var(--red);
+  fuchsia: var(--fuchsia);
+  purple: var(--purple);
+  maroon: var(--maroon);
+}
+/* @end color */
+
 .black  { color: var(--black) }
 .slate  { color: var(--slate) }
 .granite  { color: var(--granite) }
@@ -22,7 +47,6 @@
 .fuchsia { color: var(--fuchsia) }
 .purple  { color: var(--purple) }
 .maroon  { color: var(--maroon) }
-/* @end color */
 
 .color-inherit { color: inherit }
 .muted { opacity: .5 }

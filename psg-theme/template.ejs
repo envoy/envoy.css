@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title><%= projectName %></title>
+        <link rel="stylesheet" href="https://unpkg.com/envoy.css@1.3.6/css/envoy.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
         <style><%- codeStyle %><%- tmplStyle %><%- processedCSS %></style>
     </head>
 
@@ -10,15 +12,13 @@
       <div class="psg-wrapper">
         <nav class="psg-menu">
           <a href="" class="psg-logo">
-            <img
-              title="Envoy"
-              src="https://envoy.com/images/logo.svg">
+            <img title="Envoy" src="https://envoy.com/images/logo.svg">
           </a>
 
           <ul class="psg-ComponentList">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
               <a href="#color-palette" class="psg-ComponentList__item">
-                <li>Color Palette</li>
+                <li>Color palette</li>
               </a>
             <% } %>
             <% maps.forEach(function (map) { %>
@@ -35,22 +35,18 @@
         </nav>
 
         <div class="psg-main">
-          <header class="psg-title">
-            <h1><%= projectName %></h1>
-          </header>
-
           <div class="psg-container">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
             <section class="psg-section">
                 <h2 id="color-palette" class="psg-component-title">Color Palette</h2>
                 <div class="psg-contents">
-                  <div class="psg-colorPalette">
+                  <div class="clearfix mxn2">
                     <% colorPalette.forEach(function (palette) { %>
-                    <div class="psg-colorBox">
-                        <div class="psg-colorBox__sample" style="background-color: <%= palette.color %>">
+                    <div class="col col-2 px2">
+                        <div class="col-12 circle border" style="padding-bottom: 100%; background-color: <%= palette.color %>">
                         </div>
-                        <div class="psg-colorBox__name">
-                            <%= palette.name %>
+                        <div class="mb2">
+                           <p class="mt1 mb0 center" style="text-transform: capitalize;"><%= palette.name %></p>
                         </div>
                     </div>
                     <% }) %>
@@ -64,9 +60,12 @@
                     <h2 id="<%= map.link.id %>" class="psg-component-title"><%= map.link.title %></h2>
 
                     <div class="psg-contents">
+                    <div class="psg-doc border-bottom pb3 mb3">
                       <%- map.html %>
-                      <pre>
-                      <code>
+                      </div>
+                      <h3 class="h3 slate mt0 mb2">CSS source</h3>
+                      <pre class="px2 border-left" style="border-left-width:4px;max-height:30vh;">
+                      <code class="css">
                       <%- map.rule %>
                       </code>
                       </pre>
@@ -79,5 +78,7 @@
 
       </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
     </body>
 </html>
