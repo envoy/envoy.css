@@ -51,7 +51,7 @@
 
 .input:focus, .select:focus, .textarea:focus {
   outline: none;
-  border: 1px solid var(--red);
+  border: 1px solid var(--red) !important;
   box-shadow: 0 0 3px color(var(--red) a(50%));
 }
 
