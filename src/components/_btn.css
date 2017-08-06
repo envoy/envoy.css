@@ -13,7 +13,6 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 
 .btn {
   text-align: center;
-  min-width: var(--space-7);
   display: inline-block;
   font-family: inherit;
   font-size: inherit;
@@ -59,5 +58,5 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 .btn-hover-red-text { text: #ef3934; }
 
 .btn-min-width {
-  min-width: 10rem;
+  min-width: var(--space-7);
 }
