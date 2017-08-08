@@ -1,11 +1,11 @@
 .tip {
   background-image: url(/images/icons/tip-flag.svg);
-  background-repeat: none;
+  background-repeat: no-repeat;
+  background-size: 3rem;
   background-position: left center;
   position: relative;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: 2rem;
   padding-left: 4rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
