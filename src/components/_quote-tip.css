@@ -1,42 +1,28 @@
-.quote-tip {
+.tip {
+  background-image: url(/images/icons/tip-flag.svg);
+  background-repeat: none;
+  background-position: left center;
+  position: relative;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  position: relative;
-  margin-left: 3rem;
-  padding-left: 1rem;
-  padding-top: .25rem;
+  margin-left: 2rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   line-height: 1.4;
   min-height: 4rem;
-  display: flex;
-  align-items: center;
 }
 
-.quote-tip:before {
+.tip:after {
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
+  left: 3rem;
   width: 2px;
-  background-color: #ef3934;
-  border-radius: .25rem;
-  content: '';
-  margin-left: -1rem;
+  background-color: var(--red);
 }
 
-.quote-tip:after {
-  content: '';
-  background-image: url(/images/icons/tip-flag.svg);
-  display: block;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  height: 3rem;
-  width: 3rem;
-  margin-left: -46px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-
-.quote-tip p {
+.tip p:last-child {
   margin: 0;
 }
