@@ -48,14 +48,14 @@
   color: #282c36;
   font-size: 1.5rem;
   margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .content h3, .content h4, .content h5, .content h6 {
   color: #282c36;
   font-size: 1.125rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.125rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .content img {
@@ -113,33 +113,21 @@
   float: left;
 }
 
-.content code, .content pre {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: inherit;
-}
-.content code {
-  color: #14457f;
-  background-color: rgba(74, 144, 226, 0.1);
-  padding: 1px 4px;
-  border-radius: 0.25rem;
-}
-.content pre {
-  display: block;
-  padding: 1rem;
-  overflow-x: scroll;
-  border-radius: .25rem;
-  border: 2px solid #dddddd;
-  margin: 1em 0 2em;
-  font-size: .85em;
-  background-color: #333333;
-  color: white;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-}
-
 .content li > ol, .content li > ul {
   margin-top: 0.5rem;
   margin-bottom: 0;
+}
+
+.content code, .content pre {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 0.875rem;
+}
+.content code {
+  padding: 0 2rem 1rem;
+  border-radius: .25rem;
+}
+.content pre {
+  overflow-x: scroll;
+  margin: 1rem 0 2rem;
 }
 
