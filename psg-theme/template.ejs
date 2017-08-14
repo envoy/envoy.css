@@ -9,11 +9,12 @@
 
     <body>
       <div class="psg-wrapper">
-        <nav class="psg-menu">
-          <a href="" class="psg-logo">
-            <img title="Envoy" src="https://envoy.com/images/logo.svg">
+        <nav class="psg-menu bg-gray">
+          <a href="" class="psg-logo mt2 mr3">
+            <img title="Envoy" src="https://envoy.com/images/logo.svg" style="
+    transform: translateX(9px);
+">
           </a>
-
           <ul class="psg-ComponentList list-style-none">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
               <a href="#color-palette" class="psg-ComponentList__item">
@@ -33,16 +34,19 @@
 
         </nav>
 
-        <div class="psg-main">
-          <div class="psg-container">
+        <div class="psg-main bg-white shadow">
+        <section class="p4 psg-section">
+          <h1 class="slate h1 mb2 mt6 letter-rule">Envoy CSS</h1>
+        </section>
+          <div class="psg-container overflow-hidden">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
-            <section class="psg-section">
-                <h2 id="color-palette" class="mt0 mb3 h2 red">Color Palette</h2>
+            <section class="p4 psg-section">
+                <h2 id="color-palette" class="mt0 mb3 h2 red">Color palette</h2>
                 <div class="psg-contents">
                   <div class="clearfix mxn2">
                     <% colorPalette.forEach(function (palette) { %>
                     <div class="col col-2 px2">
-                        <div class="col-12 circle border" style="padding-bottom: 100%; background-color: <%= palette.color %>">
+                        <div class="col-12 circle" style="padding-bottom: 100%; background-color: <%= palette.color %>">
                         </div>
                         <div class="mb2">
                            <p class="mt1 mb0 center" style="text-transform: capitalize;"><%= palette.name %></p>
@@ -55,15 +59,15 @@
             <hr class="psg-separator">
             <% } %>
             <% maps.forEach(function (map) { %>
-                <section class="psg-section">
+                <section class=" p4 psg-section">
                     <h2 id="<%= map.link.id %>" class="mt0 mb3 h2 red"><%= map.link.title %></h2>
 
                     <div class="psg-contents">
-                    <div class="psg-doc border-bottom pb3 mb3">
+                    <div class="psg-doc pb3 mb3">
                       <%- map.html %>
                       </div>
-                      <h3 class="h3 slate mt0 mb2">CSS source</h3>
-                      <pre class="px2 border-left" style="border-left-width:4px;max-height:30vh;">
+                      <h4 class="h4 slate pt2 mb0">CSS source</h3>
+                      <pre class="px4 py2 border bg-gray" style="border-width:1px;max-height:60vh;">
                       <code class="css">
                       <%- map.rule %>
                       </code>

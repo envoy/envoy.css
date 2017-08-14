@@ -28,7 +28,6 @@ body {
   width: 240px;
   height: 100%;
   padding: 2rem 3.2rem;
-  border-right: 1px solid #ddd;
   overflow-y: scroll;
 }
 
@@ -81,7 +80,7 @@ body {
 }
 
 .psg-container {
-  margin: 50px 0;
+  margin: 0;
 }
 
 .psg-component-title.psg-component-title {
@@ -94,18 +93,19 @@ body {
 
 .psg-section {
   max-width: 580px;
-  margin: 0 auto;
+  margin-left: 50px; 
 }
 
 .psg-contents > p,
 .psg-contents > pre {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 hr.psg-separator {
-  margin: 4rem 0;
+  margin: 4rem 105px 4rem 65px;
   border: 0;
   border-top: 1px solid #ddd;
+  transform: translateX(20px);
 }
 
 /*
