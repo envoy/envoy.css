@@ -4,11 +4,10 @@
   "description": "Envoy's internal CSS framework",
   "style": "src/envoy.css",
   "scripts": {
-    "build": "postcss -c postcss.config.js",
+    "build": "postcss -c postcss.config.js && node styleGuide.js",
     "minify": "postcss -u cssnano css/envoy.css -o css/envoy.min.css",
     "prepublishOnly": "mkdir -p css && npm run build && npm run minify",
-    "start": "postcss -c postcss.config.js -w",
-    "guide": "npm run build && node styleGuide.js"
+    "start": "postcss -c postcss.config.js -w"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
