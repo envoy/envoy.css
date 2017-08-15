@@ -1,3 +1,23 @@
+/*
+@styleguide
+
+@title Step number
+
+<div class="flex flex-center mb4">
+<span class="js-configurator-header-number step-number flex-none mr1">1</span>
+<div class="flex-auto">
+<h3 class="h4 slate m0">Choose an iPad</h3>
+</div>
+</div>
+
+    <div class="flex flex-center mb4">
+    <span class="js-configurator-header-number step-number flex-none mr1">1</span>
+    <div class="flex-auto">
+    <h3 class="h4 slate m0">Choose an iPad</h3>
+    </div>
+    </div>
+*/
+
 .step-number {
   font-weight: 700;
   font-variant-numeric: lining-nums;

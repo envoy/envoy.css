@@ -1,3 +1,68 @@
+/*
+@styleguide
+
+@title Tooltip
+
+<div class="clearfix">
+<div class="col col-12 lg-col-4 flex px2 mt4 mb5">
+<div class="col-12 bg-white shadow rounded center py4 px2 flex flex-column">
+<h3 class="mt0 mb3 caps muted slate h4">Standard</h3>
+<h2 class="mt0 mb4 slate line-height-1">
+<span class="monies">$</span>
+<span class="price js-toggle-hide js-monthly fade-out">119</span>
+<span class="price js-toggle-hide js-annual fade-in">99</span>
+</h2>
+<div class="flex-none">
+<p class="line-height-1 mb1 slate inline-block">
+monthly, per location
+</p>
+<div class="wrapper flex-none xs-hide sm-hide z4">
+<span>?</span>
+<div class="tooltip z4">
+<p class="white m0 line-height-2 z4">
+For most customers, a “location” is defined as a physical office. But you can also set up an Envoy location for each door or at multiple buildings within one central campus.
+</p>
+</div>
+</div>
+</div>
+<p class="line-height-1 mb4 slate muted js-toggle-opacity transition-opacity">billed annually</p>
+<div class="flex-auto"></div>
+<p class="mb2 mx2"><a href="/trial/standard/" class="btn hover-white bg-red white rounded col-12 center">Start trial</a></p>
+<p class="line-height-1 mb0 slate">or <a href="/purchase/standard/">purchase now</a></p>
+</div>
+</div>
+</div>
+
+    <div class="col col-12 lg-col-4 flex px2 mt4 mb5">
+    <div class="col-12 bg-white shadow rounded center py4 px2 flex flex-column">
+    <h3 class="mt0 mb3 caps muted slate h4">Standard</h3>
+    <h2 class="mt0 mb4 slate line-height-1">
+    <span class="monies">$</span>
+    <span class="price js-toggle-hide js-monthly fade-out">119</span>
+    <span class="price js-toggle-hide js-annual fade-in">99</span>
+    </h2>
+    <div class="flex-none">
+    <p class="line-height-1 mb1 slate inline-block">
+    monthly, per location
+    </p>
+    <div class="wrapper flex-none xs-hide sm-hide z4">
+    <span>?</span>
+    <div class="tooltip z4">
+    <p class="white m0 line-height-2 z4">
+    For most customers, a “location” is defined as a physical office. But you can also set up an Envoy location for each door or at multiple buildings within one central campus.
+    </p>
+    </div>
+    </div>
+    </div>
+    <p class="line-height-1 mb4 slate muted js-toggle-opacity transition-opacity">billed annually</p>
+    <div class="flex-auto"></div>
+    <p class="mb2 mx2"><a href="/trial/standard/" class="btn hover-white bg-red white rounded col-12 center">Start trial</a></p>
+    <p class="line-height-1 mb0 slate">or <a href="/purchase/standard/">purchase now</a></p>
+    </div>
+    </div>
+
+*/
+
 .wrapper {
   color: rgba(40,44,54,0.4);
   display: inline-block;

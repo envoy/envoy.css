@@ -1,4 +1,23 @@
-/* Envoy.css Type Scale */
+/*
+@styleguide
+
+@title Type scale
+
+<p class="h1">Milo and Max 1</p>
+<p class="h2">Milo and Max 2</p>
+<p class="h3">Milo and Max 3</p>
+<p class="h4">Milo and Max 4</p>
+<p class="h5">Milo and Max 5</p>
+<p class="h6">Milo and Max 6</p>
+
+    <p class="h1">Milo and Max 1</p>
+    <p class="h2">Milo and Max 2</p>
+    <p class="h3">Milo and Max 3</p>
+    <p class="h4">Milo and Max 4</p>
+    <p class="h5">Milo and Max 5</p>
+    <p class="h6">Milo and Max 6</p>
+
+*/
 
 .h0 {
   font-size: var(--h0);

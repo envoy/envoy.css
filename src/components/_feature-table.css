@@ -1,3 +1,50 @@
+/*
+@styleguide
+
+@title Feature table
+
+<table class="xs-hide sm-hide table-light col-12 mt5" cellpadding="16" style="border-collapse: collapse;">
+<thead class="bg-gray p2 border rounded">
+<tr>
+<th width="28%" class="left-align slate strong">Visitor management</th>
+<th width="18%" class="regular slate">Basic</th>
+<th width="18%" class="regular slate">Standard</th>
+<th width="18%" class="regular slate">Premium</th>
+<th width="18%" class="regular slate">Enterprise</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tr-spacer ">
+<td class="left-align">
+<div class="flex flex-center">
+<div class="flex-none">
+<p class="m0">Sign in unlimited visitors</p>
+</div>
+<div class="flex-auto ml2">
+<div class="wrapper">
+<span>?</span>
+<div class="tooltip z4">Welcome one or hundreds of visitors per day.</div>
+</div>
+</div>
+</div></td>
+<td class="center">
+<img src="https://envoy.com/images/icons/pricing-check.svg">
+</td>
+<td class="center">
+<img src="https://envoy.com/images/icons/pricing-check.svg">
+</td>
+<td class="center">
+<img src="https://envoy.com/images/icons/pricing-check.svg">
+</td>
+<td class="center">
+<img src="https://envoy.com/images/icons/pricing-check.svg">
+</td>
+</tr>
+
+</tbody>
+</table>
+
+*/
 .featureTable .featureTableHeader th {
   border: 1px solid var(--border-color);
   border-left: none;
