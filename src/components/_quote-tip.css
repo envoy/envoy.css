@@ -1,3 +1,16 @@
+/*
+@styleguide
+
+@title Quote tip
+
+Use the tip class on any paragraphs you want to emphasize.
+
+`<p class="tip">This is a very special tip. You should ideally have enough text that it spans onto two lines.</p>`
+
+<p class="tip">This is a very special tip. You should ideally have enough text that it spans onto two lines.</p>
+
+*/
+
 .tip {
   background-image: url(https://envoy.com/images/icons/tip-flag.svg);
   background-repeat: no-repeat;
@@ -30,3 +43,4 @@
 .tip p:last-child {
   margin: 0;
 }
+

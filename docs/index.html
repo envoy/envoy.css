@@ -63,6 +63,22 @@
                 </a>
               
             
+              
+                <a href="#psg-link-5" class="psg-ComponentList__item">
+                  <li>
+                    Quote tip
+                  </li>
+                </a>
+              
+            
+              
+                <a href="#psg-link-6" class="psg-ComponentList__item">
+                  <li>
+                    Shadow
+                  </li>
+                </a>
+              
+            
           </ul>
 
         </nav>
@@ -338,6 +354,125 @@
   <span class="hljs-rule"><span class="hljs-attribute">padding-left</span>:<span class="hljs-value"> <span class="hljs-number">0.5rem</span></span></span>;
   <span class="hljs-rule"><span class="hljs-attribute">padding-right</span>:<span class="hljs-value"> <span class="hljs-number">0.5rem</span></span></span>;
 }</span>
+                      </code>
+                      </pre>
+                    </div>
+                </section>
+                <hr class="psg-separator">
+            
+                <section class="psg-section">
+                    <h2 id="psg-link-5" class="mt0 mb3 h2 red">Quote tip</h2>
+
+                    <div class="psg-contents">
+                    <div class="psg-doc border-bottom pb3 mb3">
+                      <p>Use the tip class on any paragraphs you want to emphasize.</p>
+<p><code>&lt;p class=&quot;tip&quot;&gt;This is a very special tip. You should ideally have enough text that it spans onto two lines.&lt;/p&gt;</code></p>
+<p class="tip">This is a very special tip. You should ideally have enough text that it spans onto two lines.</p>
+                      </div>
+                      <h3 class="h3 slate mt0 mb2">CSS source</h3>
+                      <pre class="px2 border-left" style="border-left-width:4px;max-height:30vh;">
+                      <code class="css">
+                      <span class="hljs-class">.tip</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">background-image</span>:<span class="hljs-value"> <span class="hljs-function">url</span>(https://envoy.com/images/icons/tip-flag.svg)</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-repeat</span>:<span class="hljs-value"> no-repeat</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-size</span>:<span class="hljs-value"> <span class="hljs-number">3rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-position</span>:<span class="hljs-value"> left center</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">margin-top</span>:<span class="hljs-value"> <span class="hljs-number">2rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">margin-bottom</span>:<span class="hljs-value"> <span class="hljs-number">2rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">padding-left</span>:<span class="hljs-value"> <span class="hljs-number">4rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">padding-top</span>:<span class="hljs-value"> <span class="hljs-number">0.5rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">padding-bottom</span>:<span class="hljs-value"> <span class="hljs-number">0.5rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">padding-right</span>:<span class="hljs-value"> <span class="hljs-number">2rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">line-height</span>:<span class="hljs-value"> <span class="hljs-number">1.4</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">min-height</span>:<span class="hljs-value"> <span class="hljs-number">3rem</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">font-style</span>:<span class="hljs-value"> italic</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#93959A</span></span></span>;
+}</span>
+
+<span class="hljs-class">.tip</span><span class="hljs-pseudo">:after</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">content</span>:<span class="hljs-value"> <span class="hljs-string">''</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> absolute</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">top</span>:<span class="hljs-value"> <span class="hljs-number">0</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">bottom</span>:<span class="hljs-value"> <span class="hljs-number">0</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">left</span>:<span class="hljs-value"> <span class="hljs-number">46px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">2px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">2px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#EF3934</span></span></span>;
+}</span>
+
+<span class="hljs-class">.tip</span> <span class="hljs-tag">p</span><span class="hljs-pseudo">:last-child</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">margin</span>:<span class="hljs-value"> <span class="hljs-number">0</span></span></span>;
+}</span>
+
+<span class="hljs-class">.radio</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">display</span>:<span class="hljs-value"> block</span></span>;
+}</span>
+
+<span class="hljs-class">.radio</span><span class="hljs-class">.disabled</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">opacity</span>:<span class="hljs-value"> .<span class="hljs-number">5</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">pointer-events</span>:<span class="hljs-value"> none</span></span>;
+}</span>
+
+<span class="hljs-class">.radio</span> &gt; <span class="hljs-tag">input</span><span class="hljs-attr_selector">[type=radio]</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> relative</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">top</span>:<span class="hljs-value"> <span class="hljs-number">2px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">16px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">16px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#979797</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-image</span>:<span class="hljs-value"> <span class="hljs-function">-webkit-radial-gradient</span>(white <span class="hljs-number">0%</span>, white <span class="hljs-number">100%</span>)</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-image</span>:<span class="hljs-value"> <span class="hljs-function">radial-gradient</span>(white <span class="hljs-number">0%</span>, white <span class="hljs-number">100%</span>)</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-size</span>:<span class="hljs-value"> <span class="hljs-number">8px</span> <span class="hljs-number">8px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-position</span>:<span class="hljs-value"> center center</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-repeat</span>:<span class="hljs-value"> no-repeat</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">border-radius</span>:<span class="hljs-value"> <span class="hljs-number">8px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">vertical-align</span>:<span class="hljs-value"> text-bottom</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">-webkit-appearance</span>:<span class="hljs-value"> none</span></span>;
+     <span class="hljs-rule"><span class="hljs-attribute">-moz-appearance</span>:<span class="hljs-value"> none</span></span>;
+          <span class="hljs-rule"><span class="hljs-attribute">appearance</span>:<span class="hljs-value"> none</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">-webkit-transition</span>:<span class="hljs-value"> box-shadow .<span class="hljs-number">1s</span>, border-color .<span class="hljs-number">1s</span>, background-size .<span class="hljs-number">1s</span> ease-out</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">transition</span>:<span class="hljs-value"> box-shadow .<span class="hljs-number">1s</span>, border-color .<span class="hljs-number">1s</span>, background-size .<span class="hljs-number">1s</span> ease-out</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">cursor</span>:<span class="hljs-value"> pointer</span></span>;
+}</span>
+
+<span class="hljs-class">.radio</span><span class="hljs-class">.disabled</span> &gt; <span class="hljs-tag">input</span><span class="hljs-attr_selector">[type=radio]</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">cursor</span>:<span class="hljs-value"> default</span></span>;
+}</span>
+                      </code>
+                      </pre>
+                    </div>
+                </section>
+                <hr class="psg-separator">
+            
+                <section class="psg-section">
+                    <h2 id="psg-link-6" class="mt0 mb3 h2 red">Shadow</h2>
+
+                    <div class="psg-contents">
+                    <div class="psg-doc border-bottom pb3 mb3">
+                      <p>Use the shaodw class on any block elements.</p>
+<p><code>&lt;div class=&quot;shadow bg-white rounded p4&quot;&gt;&lt;/div&gt;</code></p>
+<div class="shadow bg-white rounded p4"></div>
+                      </div>
+                      <h3 class="h3 slate mt0 mb2">CSS source</h3>
+                      <pre class="px2 border-left" style="border-left-width:4px;max-height:30vh;">
+                      <code class="css">
+                      <span class="hljs-class">.shadow</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">box-shadow</span>:<span class="hljs-value"> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">30px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, .<span class="hljs-number">1</span>) </span></span></span>}
+
+<span class="hljs-at_rule">@<span class="hljs-keyword">media</span> (min-width: <span class="hljs-number">30rem</span>) </span>{
+  <span class="hljs-class">.sm-shadow</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">box-shadow</span>:<span class="hljs-value"> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">30px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, .<span class="hljs-number">1</span>) </span></span></span>}
+}
+
+<span class="hljs-at_rule">@<span class="hljs-keyword">media</span> (min-width: <span class="hljs-number">48rem</span>) </span>{
+  <span class="hljs-class">.md-shadow</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">box-shadow</span>:<span class="hljs-value"> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">30px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, .<span class="hljs-number">1</span>) </span></span></span>}
+}
+
+<span class="hljs-at_rule">@<span class="hljs-keyword">media</span> (min-width: <span class="hljs-number">64rem</span>) </span>{
+  <span class="hljs-class">.lg-shadow</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">box-shadow</span>:<span class="hljs-value"> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">30px</span> <span class="hljs-function">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, .<span class="hljs-number">1</span>) </span></span></span>}
+}
+
+<span class="hljs-class">.skewed</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">-webkit-transform</span>:<span class="hljs-value"> <span class="hljs-function">skewY</span>(<span class="hljs-number">8deg</span>)</span></span>; <span class="hljs-rule"><span class="hljs-attribute">transform</span>:<span class="hljs-value"> <span class="hljs-function">skewY</span>(<span class="hljs-number">8deg</span>) </span></span></span>}
+
+<span class="hljs-class">.skewed-child</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">-webkit-transform</span>:<span class="hljs-value"> <span class="hljs-function">skewY</span>(-<span class="hljs-number">8deg</span>)</span></span>; <span class="hljs-rule"><span class="hljs-attribute">transform</span>:<span class="hljs-value"> <span class="hljs-function">skewY</span>(-<span class="hljs-number">8deg</span>) </span></span></span>}
                       </code>
                       </pre>
                     </div>

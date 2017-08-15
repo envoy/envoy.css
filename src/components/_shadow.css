@@ -1,3 +1,15 @@
+/*
+@styleguide
+
+@title Shadow
+
+Use the shaodw class on any block elements.
+
+`<div class="shadow bg-white rounded p4"></div>`
+
+<div class="shadow bg-white rounded p4"></div>
+
+*/
 
 .shadow { box-shadow: 0 0 30px rgba(0, 0, 0, .1) }
 
