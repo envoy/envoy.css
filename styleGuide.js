@@ -5,7 +5,7 @@ var input = fs.readFileSync('css/envoy.css', 'utf8');
 
 var output = postcss([
   styleguide({
-    project: 'envoy.css',
+    project: require("./package.json").version,
     showCode: true,
     dest: 'docs/index.html',
     theme: 'Envoy',

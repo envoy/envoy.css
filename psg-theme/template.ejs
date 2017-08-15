@@ -2,7 +2,7 @@
 <html class="psg-theme" lang="en">
     <head>
         <meta charset="UTF-8">
-        <title><%= projectName %></title>
+        <title>Envoy.css</title>
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
         <style><%- codeStyle %><%- tmplStyle %><%- processedCSS %></style>
     </head>
@@ -36,9 +36,22 @@
 
         <div class="psg-main bg-white shadow">
         <section class="p4 psg-section">
-          <h1 class="slate h1 mb2 mt6 letter-rule">Envoy CSS</h1>
+          <h1 class="slate h1 mb2 mt6 letter-rule">
+          <%=  %>
+          Envoy CSS
+          </h1>
         </section>
           <div class="psg-container overflow-hidden">
+            <section class="p4 psg-section">
+                <h2 id="color-palette" class="mt0 mb3 h2 red">Getting started</h2>
+                <div class="psg-contents">
+                <p>Add the CDN stylesheet link to your page:</p>
+                      <pre class="px4 py2 border bg-gray" style="border-width:1px;max-height:60vh;">
+                    &lt;link rel="stylesheet" href="https://unpkg.com/envoy.css@<%= projectName %>/css/envoy.min.css"&gt;
+                      </pre>
+                </div>
+            </section>
+            <hr class="psg-separator">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
             <section class="p4 psg-section">
                 <h2 id="color-palette" class="mt0 mb3 h2 red">Color palette</h2>
@@ -81,6 +94,7 @@
 
       </div>
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
     </body>

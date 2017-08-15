@@ -3,11 +3,20 @@
   "version": "1.5.0",
   "description": "Envoy's internal CSS framework",
   "style": "src/envoy.css",
+  "watch": {
+    "build": {
+        "patterns": ["src", "psg-theme"],
+        "extensions": ["css", "ejs"],
+        "quiet": false
+      }
+  },
   "scripts": {
+    "start": "npm run serve && npm run watch",
+    "serve": "node server.js &",
     "build": "postcss -c postcss.config.js && node styleGuide.js",
     "minify": "postcss -u cssnano css/envoy.css -o css/envoy.min.css",
     "prepublishOnly": "mkdir -p css && npm run build && npm run minify",
-    "start": "postcss -c postcss.config.js -w"
+    "watch": "npm-watch"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.4",
@@ -47,6 +56,8 @@
   },
   "homepage": "",
   "dependencies": {
+    "express": "^4.15.4",
+    "npm-watch": "^0.2.0",
     "postcss": "^5.2.16",
     "postcss-cli": "2.6.0",
     "postcss-import": "8.1.2",
