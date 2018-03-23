@@ -5,10 +5,16 @@
   "style": "src/envoy.css",
   "watch": {
     "build": {
-        "patterns": ["src", "psg-theme"],
-        "extensions": ["css", "ejs"],
-        "quiet": false
-      }
+      "patterns": [
+        "src",
+        "psg-theme"
+      ],
+      "extensions": [
+        "css",
+        "ejs"
+      ],
+      "quiet": false
+    }
   },
   "scripts": {
     "start": "npm run serve && npm run watch",
