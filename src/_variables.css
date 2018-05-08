@@ -94,9 +94,9 @@
   --button-glow-color: rgba(239, 57, 52, 0.2);
 }
 
-@custom-media --breakpoint-xs (max-width: 30rem);
+@custom-media --breakpoint-xs (max-width: 29.999rem);
 @custom-media --breakpoint-sm (min-width: 30rem);
-@custom-media --breakpoint-sm-md (min-width: 30rem) and (max-width: 48rem);
+@custom-media --breakpoint-sm-md (min-width: 30rem) and (max-width: 47.999rem);
 @custom-media --breakpoint-md (min-width: 48rem);
-@custom-media --breakpoint-md-lg (min-width: 48rem) and (max-width: 64rem);
+@custom-media --breakpoint-md-lg (min-width: 48rem) and (max-width: 63.999rem);
 @custom-media --breakpoint-lg (min-width: 64rem);
