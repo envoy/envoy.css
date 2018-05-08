@@ -1,0 +1,28 @@
+/*
+@styleguide
+
+@title Circle icon
+
+<div class="circle-icon circle-icon-quote inline-block mr4"></div>
+
+<div class="circle-icon circle-icon-lock inline-block"></div>
+
+*/
+
+.circle-icon {
+  height: 68px;
+  width: 68px;
+  border-radius: 34px;
+  background-color: var(--red);
+  box-shadow: 0 0 20px 0 var(--button-glow-color);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.circle-icon-quote {
+  background-image: url(https://envoy.com/images/icons/quote-white.svg);
+}
+
+.circle-icon-lock {
+  background-image: url(https://envoy.com/images/icons/lock-white.svg);
+}

@@ -37,6 +37,7 @@
 @import './components/_responsive-typography';
 
 /* Custom components */
+@import './components/_circle-icon';
 @import './components/_content';
 @import './components/_feature-table';
 @import './components/_gradients';
