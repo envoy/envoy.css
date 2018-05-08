@@ -2,7 +2,7 @@
 
 :root {
   --border-width: 1px;
-  --border-radius: 2px;
+  --border-radius: 6px;
   --border-color: #E9E9EA;
 
 
@@ -91,6 +91,7 @@
 
   --button-color: #fff;
   --button-background-color: var(--red);
+  --button-glow-color: rgba(239, 57, 52, 0.2);
 }
 
 @custom-media --breakpoint-xs (max-width: 29.999rem);
