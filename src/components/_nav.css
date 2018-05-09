@@ -15,8 +15,6 @@
 }
 
 .js-mobile-nav {
-  transform: rotate3d(1, 1, 0, -20deg);
-  transform-origin: 100% 0;
   opacity: 0;
   will-change: transform, opacity;
   transition-property: transform, opacity, height;
@@ -25,7 +23,6 @@
 }
 
 .js-mobile-nav.js-active {
-  transform: none;
   opacity: 1;
   pointer-events: auto;
 }
@@ -60,8 +57,8 @@
   transform: rotate(45deg)
 }
 .has-carat {
-  background: url(https://envoy.com/images/icons/nav-carat.svg) no-repeat right -3px;
-  padding-right: 1.2rem
+  background: url(https://envoy.com/images/icons/nav-carat.svg) no-repeat right -5px;
+  padding-right: 1rem
 }
 
 .nav-white .red.has-carat,
@@ -80,4 +77,3 @@ a:hover.has-carat {
   position: relative;
   top: 7px
 }
-

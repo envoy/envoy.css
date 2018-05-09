@@ -56,6 +56,7 @@ p {
 .bold    { font-weight: var(--bold-font-weight, bold) }
 .medium  { font-weight: var(--medium-font-weight, normal) }
 .regular { font-weight: normal }
+.light   { font-weight: var(--light-font-weight, lighter) }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: 0.125rem; }
 
@@ -118,4 +119,12 @@ p {
 
 .nowrap {
   white-space: nowrap;
+}
+
+.letter-spacing-wide {
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.mobile-letter-spacing-wide {
+  letter-spacing: var(--mobile-letter-spacing-wide);
 }

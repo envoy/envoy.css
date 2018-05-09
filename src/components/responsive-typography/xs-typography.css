@@ -1,0 +1,7 @@
+
+@media (--breakpoint-xs) {
+  .xs-left-align   { text-align: left }
+  .xs-center       { text-align: center }
+  .xs-right-align  { text-align: right }
+  .xs-justify      { text-align: justify }
+}

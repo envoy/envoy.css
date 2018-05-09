@@ -1,0 +1,18 @@
+/*
+@styleguide
+
+@title Blank line
+
+Used to represent a line of text in sample UI elements.
+
+`<div class="blank-line" style="width: 200px"></div>`
+
+<div class="blank-line" style="width: 200px"></div>
+
+*/
+.blank-line {
+  display: inline-block;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--border-color);
+}

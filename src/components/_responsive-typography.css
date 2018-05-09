@@ -1,6 +1,6 @@
 /* Basscss Responsive Typography */
 
+@import "./responsive-typography/xs-typography";
 @import "./responsive-typography/sm-typography";
 @import "./responsive-typography/md-typography";
 @import "./responsive-typography/lg-typography";
-

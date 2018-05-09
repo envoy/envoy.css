@@ -15,7 +15,7 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
   text-align: center;
   display: inline-block;
   font-family: inherit;
-  font-size: var(--h7);
+  font-size: var(--small);
   font-weight: var(--bold-font-weight);
   text-transform: uppercase;
   letter-spacing: 1.5px;

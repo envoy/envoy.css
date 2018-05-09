@@ -1,0 +1,17 @@
+
+@media (--breakpoint-xs) {
+
+  .xs-inline       { display: inline }
+  .xs-block        { display: block }
+  .xs-inline-block { display: inline-block }
+  .xs-table        { display: table }
+  .xs-table-cell   { display: table-cell }
+
+  .xs-overflow-hidden { overflow: hidden }
+  .xs-overflow-scroll { overflow: scroll }
+  .xs-overflow-auto   { overflow: auto }
+
+  .xs-left  { float: left }
+  .xs-right { float: right }
+
+}
