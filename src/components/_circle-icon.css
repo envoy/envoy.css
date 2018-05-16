@@ -19,6 +19,22 @@
   background-position: center;
 }
 
+@media (--breakpoint-xs) {
+  .circle-icon {
+    height: 54px;
+    width: 54px;
+    border-radius: 27px;
+  }
+}
+
+@media (--breakpoint-sm) {
+  .circle-icon {
+    height: 54px;
+    width: 54px;
+    border-radius: 27px;
+  }
+}
+
 .circle-icon-quote {
   background-image: url(https://envoy.com/images/icons/quote-white.svg);
 }

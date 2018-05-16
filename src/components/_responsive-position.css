@@ -1,6 +1,6 @@
 /* Basscss Responsive Position */
 
+@import "./responsive-position/xs-position";
 @import "./responsive-position/sm-position";
 @import "./responsive-position/md-position";
 @import "./responsive-position/lg-position";
-

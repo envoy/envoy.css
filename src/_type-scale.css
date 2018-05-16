@@ -21,47 +21,89 @@
 
 .h0 {
   font-size: var(--h0);
-  line-height: var(--line-height-2);
 }
 
 .h1 {
   font-size: var(--h1);
-  line-height: var(--line-height-2);
 }
 
 .h2 {
   font-size: var(--h2);
-  line-height: var(--line-height-2);
 }
 
 .h3 {
   font-size: var(--h3);
-  line-height: var(--line-height-2);
 }
 
 .h4 {
   font-size: var(--h4);
-  line-height: var(--line-height-2);
 }
 
 .h5 {
   font-size: var(--h5);
-  line-height: var(--line-height-2);
 }
 
 .h6 {
   font-size: var(--h6);
-  line-height: var(--line-height-2);
 }
 
 .small {
-  font-size: var(--h6);
-  line-height: var(--line-height-4);
+  font-size: var(--small);
 }
 
-p {
+.mobile-h1 {
+  font-size: var(--mobile-h1);
+}
+
+.mobile-h2 {
+  font-size: var(--mobile-h2);
+}
+
+.mobile-h3 {
+  font-size: var(--mobile-h3);
+}
+
+.mobile-h4 {
+  font-size: var(--mobile-h4);
+}
+
+.mobile-h5 {
+  font-size: var(--mobile-h5);
+}
+
+.mobile-h6 {
+  font-size: var(--mobile-h6);
+}
+
+.mobile-small {
+  font-size: var(--mobile-small);
+}
+
+.line-height-1 {
+  line-height: var(--line-height-1);
+}
+
+.line-height-2 {
+  line-height: var(--line-height-2);
+}
+
+.line-height-3 {
   line-height: var(--line-height-3);
 }
 
-.xs { font-size: var(--xs) }
+.line-height-4 {
+  line-height: var(--line-height-4);
+}
 
+.line-height-5 {
+  line-height: var(--line-height-5);
+}
+
+.line-height-6 {
+  line-height: var(--line-height-6);
+}
+
+p {
+  font-size: var(--h4);
+  line-height: var(--line-height-3);
+}

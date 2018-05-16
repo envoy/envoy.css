@@ -31,11 +31,36 @@
 
 .container {
   max-width: 68rem;
-  padding-right: var(--space-4);
-  padding-left: var(--space-4);
+}
+
+@media (--breakpoint-xs) {
+  .container {
+    padding-right: var(--space-2);
+    padding-left: var(--space-2);
+  }
+}
+
+@media (--breakpoint-sm) {
+  .container {
+    padding-right: var(--space-2);
+    padding-left: var(--space-2);
+  }
+}
+
+@media (--breakpoint-md) {
+  .container {
+    padding-right: var(--space-4);
+    padding-left: var(--space-4);
+  }
+}
+
+@media (--breakpoint-lg) {
+  .container {
+    padding-right: var(--space-4);
+    padding-left: var(--space-4);
+  }
 }
 
 .full-container {
   max-width: 105rem;
 }
-

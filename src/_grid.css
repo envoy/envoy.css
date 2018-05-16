@@ -1,7 +1,7 @@
 /* Basscss Grid */
 
 @import "./grid/grid";
+@import "./grid/xs-grid";
 @import "./grid/sm-grid";
 @import "./grid/md-grid";
 @import "./grid/lg-grid";
-

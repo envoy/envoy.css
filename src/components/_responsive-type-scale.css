@@ -1,6 +1,6 @@
 /* Basscss Responsive Type Scale */
 
+@import "./responsive-type-scale/xs-type-scale";
 @import "./responsive-type-scale/sm-type-scale";
 @import "./responsive-type-scale/md-type-scale";
 @import "./responsive-type-scale/lg-type-scale";
-

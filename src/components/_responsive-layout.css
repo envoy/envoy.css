@@ -1,5 +1,6 @@
 /* Basscss Responsive Layout */
 
+@import "./responsive-layout/xs-layout";
 @import "./responsive-layout/sm-layout";
 @import "./responsive-layout/md-layout";
 @import "./responsive-layout/lg-layout";

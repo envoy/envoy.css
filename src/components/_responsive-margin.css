@@ -1,5 +1,6 @@
 /* Basscss Responsive Margin */
 
+@import "./responsive-margin/xs-margin";
 @import "./responsive-margin/sm-margin";
 @import "./responsive-margin/md-margin";
 @import "./responsive-margin/lg-margin";

@@ -21,10 +21,11 @@
 .white  { color: var(--white) }
 .black  { color: var(--black) }
 
+.light-gray { color: var(--light-gray) }
+
 .color-inherit { color: inherit }
-.muted { opacity: .5 }
+.muted { opacity: .6 }
 
 /* One-off variants */
 .bg-white-97 { background-color: rgba(255,255,255,.97); }
 .muted-slate { color: var(--muted_slate) }
-
