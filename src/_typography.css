@@ -20,6 +20,22 @@
 
 @font-face {
   font-family: 'Cera Pro';
+  src: url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_7_0.eot');
+  src: url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_7_0.eot?#iefix') format('embedded-opentype'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_7_0.woff2') format('woff2'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_7_0.woff') format('woff'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_7_0.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_6_0.eot');
+  src: url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_6_0.eot?#iefix') format('embedded-opentype'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_6_0.woff2') format('woff2'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_6_0.woff') format('woff'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_6_0.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
   src: url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_8_0.eot');
   src: url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_8_0.eot?#iefix') format('embedded-opentype'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_8_0.woff2') format('woff2'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_8_0.woff') format('woff'),url('https://envoy-fonts.s3.amazonaws.com/cera-pro/316471_8_0.ttf') format('truetype');
   font-weight: 400;
