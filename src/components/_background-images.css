@@ -24,4 +24,7 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 .bg-repeat-x { background-repeat: repeat-x }
 .bg-repeat-y { background-repeat: repeat-y }
 
-.bg-coal-texture { background-image: url('https://envoy.com/images/backgrounds/coal-texture.png') }
+.bg-coal-texture {
+  background-image: url('https://envoy.com/images/backgrounds/coal-texture.png');
+  background-size: 100px;
+}
