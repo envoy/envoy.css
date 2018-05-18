@@ -10,9 +10,6 @@
 */
 
 .circle-icon {
-  height: 68px;
-  width: 68px;
-  border-radius: 34px;
   background-color: var(--red);
   box-shadow: 0 0 20px 0 var(--button-glow-color);
   background-repeat: no-repeat;
@@ -32,6 +29,22 @@
     height: 54px;
     width: 54px;
     border-radius: 27px;
+  }
+}
+
+@media (--breakpoint-md) {
+  .circle-icon {
+    height: 68px;
+    width: 68px;
+    border-radius: 34px;
+  }
+}
+
+@media (--breakpoint-lg) {
+  .circle-icon {
+    height: 68px;
+    width: 68px;
+    border-radius: 34px;
   }
 }
 
