@@ -3,20 +3,23 @@
   opacity: 1;
 }
 
-.hover-white:hover {
+.hover-white,
+.hover-slate,
+.hover-red {
   transition: all .2s ease-in-out;
+}
+
+.hover-white:hover {
   color: var(--white);
   opacity: 1;
 }
 
 .hover-slate:hover {
-  transition: all .2s ease-in-out;
   color: var(--slate);
   opacity: 1;
 }
 
 .hover-red:hover {
-  transition: all .2s ease-in-out;
   color: var(--red);
   opacity: 1;
 }
