@@ -10,14 +10,17 @@
 }
 
 .hover-slate:hover {
+  transition: opacity .2s ease-in-out;
   color: var(--slate);
+  opacity: 1;
 }
 
 .hover-red:hover {
+  transition: opacity .2s ease-in-out;
   color: var(--red);
+  opacity: 1;
 }
 
 .cursor-pointer:hover {
   cursor: pointer;
 }
-
