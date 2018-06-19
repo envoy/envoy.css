@@ -133,6 +133,11 @@ p {
   margin-bottom: var(--space-2);
 }
 
+.letters-rule.dark:before,
+.letter-rule.dark:first-letter {
+  border-color: var(--slate);
+}
+
 .nowrap {
   white-space: nowrap;
 }
