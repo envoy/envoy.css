@@ -24,7 +24,7 @@
 .light-gray { color: var(--light-gray) }
 
 .color-inherit { color: inherit }
-.muted { opacity: .6 }
+.muted { opacity: .85 }
 
 /* One-off variants */
 .bg-white-97 { background-color: rgba(255,255,255,.97); }
