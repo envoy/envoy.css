@@ -39,8 +39,8 @@
 
 .input {
   font-family: inherit;
-  font-size: var(--h4);
-  min-height: var(--h2);
+  font-size: var(--h5);
+  min-height: 2.75em;
   padding: 1px var(--space-2) 0;
   border: 1px solid color(var(--slate) a(20%));
   border-radius: var(--border-radius);

@@ -18,8 +18,8 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
   font-size: var(--h5);
   font-weight: var(--bold-font-weight);
   cursor: pointer;
-  line-height: 2;
-  padding: 0.3rem 1.5rem;
+  line-height: 2.625;
+  padding: 0 1.5rem;
   height: auto;
   min-width: 92px;
   border: 1px solid transparent;
