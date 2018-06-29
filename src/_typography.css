@@ -127,7 +127,7 @@ p {
   content: '';
   display: block;
   height: var(--space-0);
-  margin-left: 0.075rem;
+  margin-left: 0.095rem;
   width: 42px;
   margin-bottom: var(--space-2);
 }
