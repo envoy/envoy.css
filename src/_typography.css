@@ -120,22 +120,21 @@ p {
   font-kerning: none;
 }
 
-.letter-rule:first-letter {
-  border-top: var(--space-0) solid var(--red);
-  padding-top: var(--space-2);
-}
-
+.letter-rule:before,
 .letters-rule:before {
+  background-color: var(--red);
+  border-radius: var(--space-0);
   content: '';
   display: block;
-  border-top: var(--space-0) solid var(--red);
-  width: var(--space-4);
+  height: var(--space-0);
+  margin-left: 0.095rem;
+  width: 42px;
   margin-bottom: var(--space-2);
 }
 
-.letters-rule.dark:before,
-.letter-rule.dark:first-letter {
-  border-color: var(--slate);
+.dark.letters-rule:before,
+.dark .letter-rule:before{
+  background-color: var(--slate);
 }
 
 .nowrap {

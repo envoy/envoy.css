@@ -84,6 +84,22 @@ td.featureDescription {
   padding-bottom: var(--space-5);
 }
 
+.tr-spacer td {
+  position: relative;
+}
+
+.tr-spacer td:after {
+  bottom: -6px;
+  background-color: white;
+  border-top: 1px solid #E9E9EA;
+  content: '';
+  display: inline-block;
+  height: var(--space-5);
+  left: 0;
+  position: absolute;
+  width: 102%;
+}
+
 .featureTable td {
   text-align: center;
 }
@@ -99,4 +115,3 @@ td.featureDescription {
 .featureTable .featureTableSeperator th.bg-red {
   background-color: var(--red);
 }
-

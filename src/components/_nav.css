@@ -72,12 +72,6 @@ a:hover.has-carat {
   background-image: url(https://envoy.com/images/icons/nav-carat-white.svg)
 }
 
-.nav-white .nav-logo,
-.nav-white .nav-logo:focus,
-.nav-white .nav-logo:hover {
-  background-image: url(https://envoy.com/images/logo-white.svg)
-}
-
 .flip-carat {
   transform: rotate(180deg);
   position: relative;
