@@ -67,7 +67,7 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
   background-color: inherit;
   border-radius: 4px;
   box-shadow: unset;
-  color: #FFFFFF;
+  color: var(--white);
   cursor: default;
   letter-spacing: unset;
   min-width: 0;
