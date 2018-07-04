@@ -22,6 +22,14 @@
     width: 54px;
     border-radius: 27px;
   }
+
+  .circle-icon-quote {
+    background-image: url(http://localhost:4001/images/icons/quote-white-mobile.svg);
+  }
+
+  .circle-icon-lock {
+    background-image: url(http://localhost:4001/images/icons/lock-white-mobile.svg);
+  }
 }
 
 @media (--breakpoint-sm) {
@@ -29,6 +37,14 @@
     height: 54px;
     width: 54px;
     border-radius: 27px;
+  }
+
+  .circle-icon-quote {
+    background-image: url(http://localhost:4001/images/icons/quote-white-mobile.svg);
+  }
+
+  .circle-icon-lock {
+    background-image: url(http://localhost:4001/images/icons/lock-white-mobile.svg);
   }
 }
 
@@ -38,6 +54,14 @@
     width: 68px;
     border-radius: 34px;
   }
+
+  .circle-icon-quote {
+    background-image: url(https://envoy.com/images/icons/quote-white.svg);
+  }
+
+  .circle-icon-lock {
+    background-image: url(https://envoy.com/images/icons/lock-white.svg);
+  }
 }
 
 @media (--breakpoint-lg) {
@@ -46,12 +70,12 @@
     width: 68px;
     border-radius: 34px;
   }
-}
 
-.circle-icon-quote {
-  background-image: url(https://envoy.com/images/icons/quote-white.svg);
-}
+  .circle-icon-quote {
+    background-image: url(https://envoy.com/images/icons/quote-white.svg);
+  }
 
-.circle-icon-lock {
-  background-image: url(https://envoy.com/images/icons/lock-white.svg);
+  .circle-icon-lock {
+    background-image: url(https://envoy.com/images/icons/lock-white.svg);
+  }
 }
