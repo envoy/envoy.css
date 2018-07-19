@@ -3,6 +3,7 @@
 .bg-black  { background-color: var(--black) }
 .bg-slate   { background-color: var(--slate) }
 .bg-gray   { background-color: var(--gray) }
+.bg-dark-gray { background-color: var(--dark-gray) }
 .bg-silver { background-color: var(--silver) }
 .bg-white  { background-color: var(--white) }
 
@@ -26,4 +27,3 @@
 .bg-light-green   { background: color(var(--green) a(10%)) }
 .bg-light-blue    { background: color(var(--blue) a(10%)) }
 .bg-light-red     { background: color(var(--red) a(10%)) }
-
