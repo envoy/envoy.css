@@ -218,7 +218,7 @@
 }
 
 .slate.hover-red.has-carat:hover:after,
-.has-dropdown.ative .slate.hover-red.has-carat:after {
+.has-dropdown.active .slate.hover-red.has-carat:after {
   background-image: url(https://envoy.com/images/icons/arrows/sm/red-arrow.svg);
 }
 
