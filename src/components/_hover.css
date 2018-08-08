@@ -14,6 +14,11 @@
   opacity: 1;
 }
 
+.hover-white-muted:hover {
+  color: var(--white);
+  opacity: .6;
+}
+
 .hover-slate:hover {
   color: var(--slate);
   opacity: 1;

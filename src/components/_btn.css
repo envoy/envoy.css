@@ -12,20 +12,21 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 */
 
 .btn {
-  text-align: center;
+  background-color: transparent;
+  color: inherit;
   display: inline-block;
   font-family: inherit;
   font-size: var(--h5);
   font-weight: var(--bold-font-weight);
   cursor: pointer;
-  line-height: 2.625;
+  line-height: 2.5rem;
+  min-height: 2.75rem;
   padding: 0 1.5rem;
   height: auto;
   min-width: 92px;
   border: 1px solid transparent;
   vertical-align: middle;
-  color: inherit;
-  background-color: transparent;
+  text-align: center;
   transition: all .2s ease-in-out;
 }
 
@@ -76,7 +77,7 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 }
 
 .has-arrow::after {
-  content:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI1cHgiIGhlaWdodD0iOXB4IiB2aWV3Qm94PSIwIDAgNSA5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPiAgICAgICAgPHRpdGxlPkFycm93PC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxkZWZzPjwvZGVmcz4gICAgPGcgaWQ9IlN5bWJvbHMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+ICAgICAgICA8ZyBpZD0iQnV0dG9uL1NsYXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjUuMDAwMDAwLCAtMTkuMDAwMDAwKSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuNSI+ICAgICAgICAgICAgPGcgaWQ9IkJ1dHRvbiI+ICAgICAgICAgICAgICAgIDxnIGlkPSJUZXh0LWFuZC1pY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNC4wMDAwMDAsIDExLjcwNzMxNykiPiAgICAgICAgICAgICAgICAgICAgPHBvbHlsaW5lIGlkPSJBcnJvdyIgcG9pbnRzPSI0Mi4wMDAxNDI5IDguNDQ0IDQ1IDExLjk0MzkxNjcgNDIgMTUuNDQ0Ij48L3BvbHlsaW5lPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+);
+  content: url(http://dev.envoy:4000/images/icons/arrows/sm/white-arrow.svg);
   margin-left: 0.5rem;
   position: relative;
   right: 0;
@@ -86,7 +87,7 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 }
 
 .red.has-arrow::after {
-  content: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI1cHgiIGhlaWdodD0iOXB4IiB2aWV3Qm94PSIwIDAgNSA5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPiAgICAgICAgPHRpdGxlPkFycm93PC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxkZWZzPjwvZGVmcz4gICAgPGcgaWQ9IlN5bWJvbHMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+ICAgICAgICA8ZyBpZD0iQnV0dG9uL1NsYXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjUuMDAwMDAwLCAtMTkuMDAwMDAwKSIgc3Ryb2tlPSIjRUYzOTM0IiBzdHJva2Utd2lkdGg9IjEuNSI+ICAgICAgICAgICAgPGcgaWQ9IkJ1dHRvbiI+ICAgICAgICAgICAgICAgIDxnIGlkPSJUZXh0LWFuZC1pY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNC4wMDAwMDAsIDExLjcwNzMxNykiPiAgICAgICAgICAgICAgICAgICAgPHBvbHlsaW5lIGlkPSJBcnJvdyIgcG9pbnRzPSI0Mi4wMDAxNDI5IDguNDQ0IDQ1IDExLjk0MzkxNjcgNDIgMTUuNDQ0Ij48L3BvbHlsaW5lPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+);
+  content: url(http://dev.envoy:4000/images/icons/arrows/sm/darkred-arrow.svg);
 }
 
 .has-arrow:hover::after {
