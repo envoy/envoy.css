@@ -21,11 +21,13 @@ Use the button size classes on and `<a>`, `<button>`, `<input>` elements.
 
 
 .btn-small {
-  padding: var(--button-small-padding-y) var(--button-small-padding-x);
+  padding-left: var(--button-small-padding-x);
+  padding-right: var(--button-small-padding-x);
 }
 
 .btn-big {
-  padding: var(--button-big-padding-y) var(--button-big-padding-x);
+  padding-left: var(--button-big-padding-x);
+  padding-right: var(--button-big-padding-x);
 }
 
 .btn-narrow {
