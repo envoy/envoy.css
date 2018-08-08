@@ -199,30 +199,33 @@
 }
 
 .has-carat {
-  background-image: url(http://dev.envoy:4000/images/icons/arrows/sm/slate-arrow.svg);
-  background-position: calc(100% - 4px) 8px;
+  padding-right: 1.125rem;
+}
+
+.has-carat:after {
+  background-image: url(https://envoy.com/images/icons/arrows/sm/slate-arrow.svg);
+  background-position: center;
   background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 11px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
   transition: all 300ms ease;
+  transform: rotate(90deg);
+  width: 5px;
 }
 
-.nav .has-dropdown.active .root-link {
-  color: #EF3934;
-}
-.nav .has-dropdown.active .has-carat {
-  background-image: url(http://dev.envoy:4000/images/icons/arrows/sm/red-arrow.svg);
+.slate.hover-red.has-carat:hover:after,
+.has-dropdown.ative .slate.hover-red.has-carat:after {
+  background-image: url(https://envoy.com/images/icons/arrows/sm/red-arrow.svg);
 }
 
-.nav-white .has-carat,
-.nav-slate .has-carat {
-  background-image: url(http://dev.envoy:4000/images/icons/arrows/sm/white-arrow.svg);
+.white.hover-muted.has-carat:after {
+  background-image: url(https://envoy.com/images/icons/arrows/sm/white-arrow.svg);
 }
-.nav-white .has-dropdown.active .has-carat,
-.nav-slate .has-dropdown.active .has-carat {
-  opacity: .65;
-}
-.nav-white .has-dropdown.active .has-carat,
-.nav-white .has-carat:hover,
-.nav-slate .has-dropdown.active .has-carat,
-.nav-slate .has-carat:hover {
-  background-image: url(http://dev.envoy:4000/images/icons/arrows/sm/white-arrow.svg);
+
+.has-dropdown.active .white.hover-muted.has-carat {
+  opacity: .6;
 }

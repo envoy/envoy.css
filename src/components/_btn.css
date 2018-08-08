@@ -71,13 +71,15 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
   color: var(--white);
   cursor: default;
   letter-spacing: unset;
-  min-width: 0;
+  line-height: unset;
+  min-height: unset;
+  min-width: unset;
   padding: 0;
   text-transform: unset;
 }
 
 .has-arrow::after {
-  content: url(http://dev.envoy:4000/images/icons/arrows/sm/white-arrow.svg);
+  content: url(https://envoy.com/images/icons/arrows/sm/white-arrow.svg);
   margin-left: 0.5rem;
   position: relative;
   right: 0;
@@ -87,7 +89,11 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 }
 
 .red.has-arrow::after {
-  content: url(http://dev.envoy:4000/images/icons/arrows/sm/darkred-arrow.svg);
+  content: url(https://envoy.com/images/icons/arrows/sm/red-arrow.svg);
+}
+
+.red.has-arrow:hover:after {
+  content: url(https://envoy.com/images/icons/arrows/sm/darkred-arrow.svg);
 }
 
 .has-arrow:hover::after {
