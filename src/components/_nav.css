@@ -68,39 +68,11 @@
 .dropdown-link:hover ~ .hover-state {
   opacity: 1;
   top: 16px;
-  transition: opacity 200ms ease-in, top 300ms;
-}
-
-.dropdown-link:nth-child(2):hover ~ .hover-state {
-  top: 72px;
-}
-
-.dropdown-link:nth-child(3):hover ~ .hover-state {
-  top: 126px;
-}
-
-.dropdown-link:nth-child(4):hover ~ .hover-state {
-  top: 180px;
-}
-
-.dropdown-link:nth-child(5):hover ~ .hover-state {
-  top: 234px;
-}
-
-.dropdown-link:nth-child(6):hover ~ .hover-state {
-  top: 288px;
+  transition: opacity 200ms ease-in, top 300ms, height 0;
 }
 
 .dropdown-link--product {
   height: 76px;
-}
-
-.dropdown-link--product ~ .hover-state {
-  height: 76px;
-}
-
-.dropdown-link--product:nth-child(2):hover ~ .hover-state {
-  top: 92px;
 }
 
 /* General nav styles / variations */
@@ -142,9 +114,6 @@
   height: 400px;
   transform: translateX(0);
   transform-origin: 0 0;
-}
-
-.nav .dropdown-bg {
   transition-duration: 250ms;
   transition-property: transform;
 }
