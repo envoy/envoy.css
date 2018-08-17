@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-  color: var(--pink);
+  color: var(--darkred);
 }
 
 img {
@@ -40,5 +40,3 @@ ol,
 ul {
   margin-left: -1.5rem;
 }
-
-

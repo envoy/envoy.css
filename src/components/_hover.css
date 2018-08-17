@@ -5,13 +5,19 @@
 
 .hover-white,
 .hover-slate,
-.hover-red {
+.hover-red,
+.hover-muted {
   transition: all .2s ease-in-out;
 }
 
 .hover-white:hover {
   color: var(--white);
   opacity: 1;
+}
+
+.hover-muted:hover {
+  color: var(--white);
+  opacity: .6;
 }
 
 .hover-slate:hover {

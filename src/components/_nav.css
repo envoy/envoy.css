@@ -40,40 +40,161 @@
   color: transparent
 }
 
-.nav-carat {
-  top: 2rem;
-  min-width: 12.5rem
+/* Envoy.com dropdown menu styles */
+.dropdown-link {
+  height: 54px;
 }
 
-.nav-carat:before {
-  content: '';
-  background: #fff;
-  width: .5rem;
-  height: .5rem;
-  position: absolute;
-  top: -.25rem;
-  right: 1.25rem;
-  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
-  transform: rotate(45deg)
+.nav-arrow {
+  opacity: 0;
+  transition: opacity 200ms ease-in;
 }
+
+.dropdown-link:hover .nav-arrow {
+  opacity: 1;
+}
+
+.dropdown-link ~ .hover-state {
+  color: #EF3934;
+  height: 54px;
+  left: 16px;
+  opacity: 0;
+  right: 16px;
+  top: 18px;
+  transition: opacity 50ms ease-out, top 300ms;
+  z-index: 0;
+}
+
+.dropdown-link:hover ~ .hover-state {
+  opacity: 1;
+  top: 16px;
+  transition: opacity 200ms ease-in, top 300ms, height 0;
+}
+
+.dropdown-link--product {
+  height: 76px;
+}
+
+/* General nav styles / variations */
+.nav {
+  perspective: 2000px;
+}
+
+.nav .root-link {
+  user-select: none;
+  white-space: nowrap;
+}
+
+.has-dropdown .root-link {
+  cursor: default;
+}
+
+.nav .dropdown-base {
+  top: 54px;
+  left: -100%;
+  overflow: hidden;
+  transition: transform 250ms ease, opacity 250ms ease;
+  transform: rotateX(-15deg);
+  transform-origin: 50% - 50px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.nav.dropdown-active .dropdown-base {
+  left: 0;
+  right: 0;
+  opacity: 1;
+  overflow: visible;
+  pointer-events: auto;
+  transform: none;
+}
+
+.nav .dropdown-bg {
+  width: 520px;
+  height: 400px;
+  transform: translateX(0);
+  transform-origin: 0 0;
+  transition-duration: 250ms;
+  transition-property: transform;
+}
+
+.nav .dropdown-arrow {
+  top: -6px;
+  width: 12px;
+  height: 12px;
+  margin: 0 0 0 -10px;
+  transition-property: transform;
+  transform: rotate(45deg);
+  border-radius: 4px 0 0 0;
+  box-shadow: -2px -2px 5px rgba(82, 95, 127, 0.05);
+}
+
+.nav .dropdown-arrow,
+.nav .dropdown-container {
+  transition-duration: 250ms;
+}
+
+.nav .dropdown-container {
+  transition-property: transform, width, height;
+  transform: translateX(0);
+}
+
+.nav .dropdown-section {
+  opacity: 0;
+  pointer-events: none;
+  transition-duration: 0.25s;
+  transition-property: transform, opacity;
+}
+
+.nav .dropdown-section.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.nav .dropdown-section.left {
+  transform: translateX(-150px);
+}
+
+.nav .dropdown-section.right {
+  transform: translateX(150px);
+}
+
+.nav.no-dropdown-transition .dropdown-arrow,
+.nav.no-dropdown-transition .dropdown-bg,
+.nav.no-dropdown-transition .dropdown-container,
+.nav.no-dropdown-transition .dropdown-section {
+  transition: none;
+}
+
 .has-carat {
-  background: url(https://envoy.com/images/icons/nav-carat.svg) no-repeat right -4px;
-  padding-right: 1.125rem
+  padding-right: 1.125rem;
 }
 
-.nav-white .red.has-carat,
-.nav-white a:hover.has-carat,
-.red.has-carat,
-a:hover.has-carat {
-  background-image: url(https://envoy.com/images/icons/nav-carat-red.svg)
+.has-carat:after {
+  background-image: url(https://envoy.com/images/icons/arrows/sm/slate-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 11px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  transition: all 300ms ease;
+  transform: rotate(90deg);
+  width: 5px;
 }
 
-.nav-white .has-carat {
-  background-image: url(https://envoy.com/images/icons/nav-carat-white.svg)
+.slate.hover-red.has-carat:hover:after,
+.has-dropdown.active .slate.hover-red.has-carat:after {
+  background-image: url(https://envoy.com/images/icons/arrows/sm/red-arrow.svg);
 }
 
-.flip-carat {
-  transform: rotate(180deg);
-  position: relative;
-  top: 7px
+.white.hover-muted.has-carat:after {
+  background-image: url(https://envoy.com/images/icons/arrows/sm/white-arrow.svg);
+}
+
+.has-dropdown.active .white.hover-muted.has-carat {
+  opacity: .6;
 }
