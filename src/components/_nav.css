@@ -198,3 +198,7 @@
 .has-dropdown.active .white.hover-muted.has-carat {
   opacity: .6;
 }
+
+.has-dropdown.active .slate.hover-red.has-carat {
+  color: var(--red);
+}

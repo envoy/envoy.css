@@ -20,8 +20,8 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
   font-weight: var(--bold-font-weight);
   cursor: pointer;
   line-height: 2.5rem;
-  min-height: 2.75rem;
-  padding: 0 1.5rem;
+  height: 2.75rem;
+  padding: 1px 1.5rem 0;
   height: auto;
   min-width: 92px;
   border: 1px solid transparent;
