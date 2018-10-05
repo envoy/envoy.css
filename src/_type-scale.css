@@ -51,38 +51,6 @@
   font-size: var(--small);
 }
 
-@media (max-width: 47.999rem) {
-
-  .mobile-h1 {
-    font-size: var(--mobile-h1);
-  }
-
-  .mobile-h2 {
-    font-size: var(--mobile-h2);
-  }
-
-  .mobile-h3 {
-    font-size: var(--mobile-h3);
-  }
-
-  .mobile-h4 {
-    font-size: var(--mobile-h4);
-  }
-
-  .mobile-h5 {
-    font-size: var(--mobile-h5);
-  }
-
-  .mobile-h6 {
-    font-size: var(--mobile-h6);
-  }
-
-}
-
-.mobile-small {
-  font-size: var(--mobile-small);
-}
-
 .line-height-1 {
   line-height: var(--line-height-1);
 }
@@ -110,4 +78,35 @@
 p {
   font-size: var(--h4);
   line-height: var(--line-height-3);
+}
+
+/* Mobile typescale */
+@media (max-width: 47.999rem) {
+  .mobile-h1 {
+    font-size: var(--mobile-h1);
+  }
+
+  .mobile-h2 {
+    font-size: var(--mobile-h2);
+  }
+
+  .mobile-h3 {
+    font-size: var(--mobile-h3);
+  }
+
+  .mobile-h4 {
+    font-size: var(--mobile-h4);
+  }
+
+  .mobile-h5 {
+    font-size: var(--mobile-h5);
+  }
+
+  .mobile-h6 {
+    font-size: var(--mobile-h6);
+  }
+
+  .mobile-small {
+    font-size: var(--mobile-small);
+  }
 }
