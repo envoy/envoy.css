@@ -21,6 +21,7 @@
 .bg-fuchsia { background-color: var(--fuchsia) }
 .bg-purple  { background-color: var(--purple) }
 .bg-maroon  { background-color: var(--maroon) }
+.bg-gray-gradient { background-image: linear-gradient(to top, #ffffff, #f6f6f7);}
 
 /* Used for alerts */
 .bg-light-yellow  { background: color(var(--yellow) a(10%)) }
