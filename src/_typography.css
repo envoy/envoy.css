@@ -127,9 +127,10 @@ p {
   content: '';
   display: block;
   height: var(--space-0);
-  margin-left: 0.095rem;
   width: 42px;
   margin-bottom: var(--space-2);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dark.letters-rule:before,
