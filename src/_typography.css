@@ -129,10 +129,11 @@ p {
   height: var(--space-0);
   width: 42px;
   margin-bottom: var(--space-2);
+}
+.center.letter-rule:before, .center.letter-rules:before{
   margin-left: auto;
   margin-right: auto;
 }
-
 .dark.letters-rule:before,
 .dark .letter-rule:before{
   background-color: var(--slate);
