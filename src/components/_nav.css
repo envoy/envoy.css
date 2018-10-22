@@ -94,7 +94,7 @@
   left: -100%;
   overflow: hidden;
   transition: transform 250ms ease, opacity 250ms ease;
-  transform: rotateX(-15deg);
+  transform: scale(0.9) translateY(20px);
   transform-origin: 50% - 50px;
   pointer-events: none;
   opacity: 0;
