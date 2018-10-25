@@ -88,12 +88,17 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
   vertical-align: middle;
 }
 
-.red.has-arrow::after {
+.red.has-arrow::after,
+.slate.has-arrow:hover:after  {
   content: url(https://envoy.com/images/icons/arrows/sm/red-arrow.svg);
 }
 
 .red.has-arrow:hover:after {
   content: url(https://envoy.com/images/icons/arrows/sm/darkred-arrow.svg);
+}
+
+.slate.has-arrow::after {
+  content: url(https://envoy.com/images/icons/arrows/sm/slate-arrow.svg);
 }
 
 .has-arrow:hover::after {

@@ -19,6 +19,10 @@ a:hover {
   color: var(--darkred);
 }
 
+a.slate:hover {
+  color: var(--red);
+}
+
 img {
   max-width: 100%;
   height: auto;
