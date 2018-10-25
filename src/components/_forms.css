@@ -83,7 +83,9 @@
   border-radius: var(--border-radius);
   box-sizing: border-box;
 }
-
+.input, .select, .textarea{
+  transition: all .25s linear;
+}
 .input:focus, .select:focus, .textarea:focus {
   outline: none;
   border: 1px solid var(--red) !important;
