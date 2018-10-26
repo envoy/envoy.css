@@ -43,7 +43,7 @@
   min-height: 2.75em;
   padding: 1px var(--space-2) 0;
   border: 1px solid color(var(--slate) a(20%));
-  border-radius: var(--border-radius);
+  border-radius: var(--small-border-radius);
   box-sizing: border-box;
   vertical-align: middle;
 }
@@ -67,7 +67,7 @@
   padding: 0 var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
-  border-radius: var(--border-radius);
+  border-radius: var(--small-border-radius);
   box-sizing: border-box;
   vertical-align: middle;
 }
@@ -80,7 +80,7 @@
   padding: var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
-  border-radius: var(--border-radius);
+  border-radius: var(--small-border-radius);
   box-sizing: border-box;
 }
 .input, .select, .textarea{
