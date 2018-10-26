@@ -3,6 +3,7 @@
 :root {
   --border-width: 1px;
   --border-radius: 6px;
+  --small-border-radius: 4px;
   --border-color: #E9E9EA;
 
 
@@ -23,7 +24,7 @@
   --yellow:  #FFB400;
   --orange:  #FF851B;
   --red:     #EF3934;
-  --darkred: #AF2B28;
+  --darkred: #CC322E;
   --pink:    #F1504C;
   --fuchsia: #F012BE;
   --purple:  #B10DC9;

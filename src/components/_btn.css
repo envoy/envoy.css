@@ -33,7 +33,7 @@ Use the button classes on and `<a>`, `<button>`, `<input>` elements.
 .btn-primary {
   color: var(--white);
   background-color: var(--red);
-  border-radius: var(--border-radius);
+  border-radius: var(--small-border-radius);
   box-shadow: 0 0 20px 0 var(--button-glow-color);
 }
 

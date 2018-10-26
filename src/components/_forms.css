@@ -43,7 +43,7 @@
   min-height: 2.75em;
   padding: 1px var(--space-2) 0;
   border: 1px solid color(var(--slate) a(20%));
-  border-radius: var(--border-radius);
+  border-radius: var(--small-border-radius);
   box-sizing: border-box;
   vertical-align: middle;
 }
@@ -60,27 +60,27 @@
   appearance: none;
   background: transparent no-repeat right 1rem center url(https://envoy.com/images/icons/select-carat.svg);
   font-family: inherit;
-  font-size: var(--h6);
+  font-size: var(--h5);
   display: block;
   min-height: var(--h1);
   width: 100%;
   padding: 0 var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
-  border-radius: var(--border-radius);
+  border-radius: var(--small-border-radius);
   box-sizing: border-box;
   vertical-align: middle;
 }
 
 .textarea {
   font-family: inherit;
-  font-size: var(--h6);
+  font-size: var(--h5);
   display: block;
   width: 100%;
   padding: var(--space-2);
   margin-bottom: var(--space-3);
   border: 1px solid color(var(--slate) a(20%));
-  border-radius: var(--border-radius);
+  border-radius: var(--small-border-radius);
   box-sizing: border-box;
 }
 .input, .select, .textarea{
