@@ -60,7 +60,7 @@
   appearance: none;
   background: transparent no-repeat right 1rem center url(https://envoy.com/images/icons/select-carat.svg);
   font-family: inherit;
-  font-size: var(--h6);
+  font-size: var(--h5);
   display: block;
   min-height: var(--h1);
   width: 100%;
@@ -74,7 +74,7 @@
 
 .textarea {
   font-family: inherit;
-  font-size: var(--h6);
+  font-size: var(--h5);
   display: block;
   width: 100%;
   padding: var(--space-2);
