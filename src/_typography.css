@@ -55,7 +55,7 @@ body, p, li, input, textarea, .regular {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
-h1, h2, h3, h4, h5, h6, .bold {
+h1, h2, h3, h4, h5, h6, .h2-old .bold {
   font-family: 'Cera Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
