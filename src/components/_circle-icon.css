@@ -18,8 +18,8 @@
 
 @media (--breakpoint-xs) {
   .circle-icon {
-    height: 54px;
-    width: 54px;
+    height: 44px;
+    width: 44px;
     border-radius: 27px;
   }
 
@@ -38,8 +38,8 @@
 
 @media (--breakpoint-sm) {
   .circle-icon {
-    height: 54px;
-    width: 54px;
+    height: 44px;
+    width: 44px;
     border-radius: 27px;
   }
 
