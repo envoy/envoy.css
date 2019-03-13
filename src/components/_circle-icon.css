@@ -18,8 +18,8 @@
 
 @media (--breakpoint-xs) {
   .circle-icon {
-    height: 54px;
-    width: 54px;
+    height: 44px;
+    width: 44px;
     border-radius: 27px;
   }
 
@@ -29,13 +29,17 @@
 
   .circle-icon-lock {
     background-image: url(https://envoy.com/images/icons/lock-white-mobile.svg);
+  }
+
+  .circle-icon-iphone {
+    background-image: url(https://envoy.com/images/icons/iphone-white-mobile.svg);
   }
 }
 
 @media (--breakpoint-sm) {
   .circle-icon {
-    height: 54px;
-    width: 54px;
+    height: 44px;
+    width: 44px;
     border-radius: 27px;
   }
 
@@ -45,6 +49,10 @@
 
   .circle-icon-lock {
     background-image: url(https://envoy.com/images/icons/lock-white-mobile.svg);
+  }
+
+  .circle-icon-iphone {
+    background-image: url(https://envoy.com/images/icons/iphone-white-mobile.svg);
   }
 }
 
@@ -62,6 +70,10 @@
   .circle-icon-lock {
     background-image: url(https://envoy.com/images/icons/lock-white.svg);
   }
+
+  .circle-icon-iphone {
+    background-image: url(https://envoy.com/images/icons/iphone-white.svg);
+  }
 }
 
 @media (--breakpoint-lg) {
@@ -77,5 +89,9 @@
 
   .circle-icon-lock {
     background-image: url(https://envoy.com/images/icons/lock-white.svg);
+  }
+
+  .circle-icon-iphone {
+    background-image: url(https://envoy.com/images/icons/iphone-white.svg);
   }
 }
