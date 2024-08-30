@@ -66,7 +66,7 @@
     "npm-watch": "^0.2.0",
     "postcss": "^5.2.16",
     "postcss-cli": "2.6.0",
-    "postcss-import": "8.1.2",
+    "postcss-import": "16.1.0",
     "postcss-style-guide": "^0.14.0"
   }
 }
